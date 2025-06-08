@@ -1,0 +1,32 @@
+services:
+  web:
+    image: ghcr.io/densuke-st/xampp-devenv:20250603075611
+    # build: build/
+    # 2025/5/28以降 ビルド用のデータはこのリポジトリには含まれておりません
+    #  -> https://github.com/densuke-st/xampp-devenv-image-docker
+    #build: env
+    volumes:
+      - ./public:/var/www/html:cached
+      - .:/app:cached
+    env_file:
+      - env.txt
+
+  db:
+    image: ghcr.io/densuke/mysql:1748379755
+    #build: db/build
+    env_file:
+      - env.txt
+    volumes:
+      - db_data:/var/lib/mysql
+      - ./db:/docker-entrypoint-initdb.d
+    healthcheck:
+      test: ["CMD", "/usr/local/bin/healthcheck.sh"]
+      interval: 30s
+      timeout: 5s
+      retries: 5
+      start_period: 5s
+
+
+volumes:
+  db_data:
+

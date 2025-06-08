@@ -1,0 +1,14 @@
+[project]
+name = "xampp-devenv-template"
+version = "0.1.0"
+description = "XAMPP環境もどきのものをDockerベースの開発コンテナで提供します"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = []
+
+[dependency-groups]
+dev = [
+    "mysql-connector-python>=9.3.0",
+    "selenium>=4.33.0",
+    "sqlalchemy>=2.0.41",
+]

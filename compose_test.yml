@@ -1,0 +1,24 @@
+services:
+  web:
+    # ポートフォワードをリセット(テスト環境で閉じておく)
+    ports:
+      - 80
+    depends_on:
+      - db
+      - selenium
+    volumes:
+      - ./:/workspaces
+
+  selenium:
+    image: seleniarm/standalone-chromium
+    ports:
+      - 4444 # Selenium grid server
+      - 7900 # NoVNC server
+    shm_size: 2gb
+
+  db:
+    volumes:
+      - type: tmpfs
+        target: /var/lib/mysql
+        tmpfs:
+          size: 256m
