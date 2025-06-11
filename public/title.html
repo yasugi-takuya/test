@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>漢字組み合わせパズル</title>
+    <link rel="stylesheet" href="../css/title.css">
+</head>
+<body>
+    <h1 class="title">漢字組み合わせパズル</h1>
+    <div class="buttons">
+        <div class="gamebutton" onclick="SelectPage('../public/game.html')">スタート</div>
+
+        <!-- モーダルを開くボタン -->
+        <button class="modal-open js-modal-open">操作説明</button>
+        <!-- モーダル本体 -->
+            <div class="modal js-modal">
+                <div class="modal-container">
+                <!-- モーダルを閉じるボタン -->
+                    <div class="modal-close js-modal-close">×</div>
+                     <!-- モーダル内部のコンテンツ -->
+                    <div class="modal-content">
+                            <p>開きました。</p>
+                    </div>
+                </div>
+            </div>
+        <script src="../public/title.js"></script>
+    </div>
+</body>
+</html>
