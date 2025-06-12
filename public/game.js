@@ -1,0 +1,34 @@
+const title = document.getElementById('title');  // タイトルを表示するh1タグ
+const yojijukugo = document.getElementById('yojijukugo');  // 四字熟語と読み仮名を表示するh2タグ
+const kanji = document.querySelectorAll('.kanji');  // 四字熟語の各漢字を表示するrubyタグのリスト
+const yojijukugo_meaning = document.getElementById('yojijukugo_meaning');  // 四字熟語の意味を表示するpタグ
+
+const url = 'yojijukugo (1).json';  // 四字熟語が書かれたJSONファイルのurl(相対パス)
+let counter = 0;  // 四字熟語のカウンタ
+let = yojijukugo_json;  // 四字熟語のJSONデータ
+
+// JSONファイルのデータの取得
+fetch(url)
+.then((response) => {  // データが取得できたら
+    return response.json();  // データをJSON形式に変数
+})
+.then((result) => {  // JSON形式に変数できたら
+    title.textContent = '四字熟語漢字パズル';
+    yojijukugo_json = result;  // 四字熟語のJSONデータをグローバル変数に保存
+    yojijukugo_display(counter);  // 最初の四字熟語の表示
+})
+.catch((e) => {  // 上記の処理中にエラーが発生したら
+    window.alert(e);  //エラーをキャッチし表示     
+})
+
+// 四字熟語を表示する関数
+const yojijukugo_display = (counter) => {
+    // 四字熟語の表示
+    yojijukugo.innerHTML = `${yojijukugo_json[counter].熟語}<rt>${yojijukugo_json[counter].読み方}</rt>`;
+    // 四字熟語の各漢字を表示するループ
+    for (let i = 0; i < yojijukugo_json.length; i++)
+    {
+        kanji[i].innerHTML = `${yojijukugo_json[counter].構成漢字[i][0]}<rt>${yojijukugo_json[counter].構成漢字[i][1]}</rt>`;
+    }
+    yojijukugo_meaning.textContent = yojijukugo_json[counter].意味;
+}
