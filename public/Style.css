@@ -4,7 +4,11 @@ body{
 table{
     border: #000000, 1px, solid;
     margin: auto;
+    border-collapse: collapse;
 }
 td{
     border: #000000, 1px, solid;
+    width: 200px;
+    height: 200px;
+    font-size: 100px;
 }
