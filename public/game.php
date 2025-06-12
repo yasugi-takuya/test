@@ -33,7 +33,7 @@
             echo '<ruby>' . $value2[0] . '<rt>' . $value2[1] . '</rt></ruby>';
             echo '</td>';
         }
-        echo '</tr></table>';
+        echo '</tr></table>aaaaa';
         echo '<br>';
         array_push($yojijukugo_list,$Yojijukugo);  // リストに四字熟語を追加する
     }
