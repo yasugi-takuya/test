@@ -7,6 +7,11 @@
     <link rel="stylesheet" href="Style.css">
 </head>
 <body>
+    <?php
+    if (isset($_POST['Diff']) && $_POST['Diff'] != '') {  // 難易度の値を受け取れていれば
+        $diff = $_POST['Diff'];  // 難易度の値を変数に保存
+    }
+    ?>
     <!--タイトル-->
     <h1 id="title">読み込み中</h1>
     <!--四字熟語と読み方-->
@@ -26,7 +31,11 @@
     <!--次の四字熟語を表示するボタン-->
     <button id="next_btn">次の四字熟語</button>
 
-    <!--javascriptの読み込み-->
+    <!--javascriptの変数にphpの変数の値を代入-->
+    <script type="text/javascript">
+        const diff = "<?php echo $diff?>";
+    </script>
+    <!--外部javascriptファイルの読み込み-->
     <script src="game.js"></script>
 </body>
 </html>

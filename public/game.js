@@ -1,19 +1,30 @@
+window.alert(diff);
 const title = document.getElementById('title');  // タイトルを表示するh1タグ
 const yojijukugo = document.getElementById('yojijukugo');  // 四字熟語と読み仮名を表示するh2タグ
 const kanji = document.querySelectorAll('.kanji');  // 四字熟語の各漢字を表示するrubyタグのリスト
 const yojijukugo_meaning = document.getElementById('yojijukugo_meaning');  // 四字熟語の意味を表示するpタグ
 const next_btn = document.getElementById('next_btn');  // 次の四字熟語を表示するボタン
+let url;  // 四字熟語が書かれたJSONファイルのurl(相対パス)
+if (diff = "やさしい")
+{
+    url = 'yojijukugo (1).json';  // 四字熟語が書かれたJSONファイルのurl(相対パス)
+}
+else if (diff = "ふつう") {
+    url = 'yojijukugo (1).json';  // 四字熟語が書かれたJSONファイルのurl(相対パス)
+}
+else if (diff = "むずかしい") {
+    url = 'yojijukugo (1).json';  // 四字熟語が書かれたJSONファイルのurl(相対パス)
+}
 
-const url = 'yojijukugo (1).json';  // 四字熟語が書かれたJSONファイルのurl(相対パス)
 let counter = 0;  // 四字熟語のカウンタ
 let yojijukugo_json;  // 四字熟語のJSONデータ
 
 // JSONファイルのデータの取得
 fetch(url)
 .then((response) => {  // データが取得できたら
-    return response.json();  // データをJSON形式に変数
+    return response.json();  // データをJSON形式のオブジェクトに変換
 })
-.then((result) => {  // JSON形式に変数できたら
+.then((result) => {  // JSON形式のオブジェクトに変数できたら
     title.textContent = '四字熟語漢字パズル';
     yojijukugo_json = result;  // 四字熟語のJSONデータをグローバル変数に保存
     yojijukugo_display(counter);  // 最初の四字熟語の表示
