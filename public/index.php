@@ -12,13 +12,8 @@
     $arch = php_uname('m');
     ?>
     <p>
-        このページは <?= $os ?> (<?= $arch ?>) で動作しています。
-    </p>
-    <ul>
-        <li>現在の日本時間は <?php echo date('Y-m-d H:i:s'); ?> です。</li>
-        <li><a href="test.php">test.php(DB接続テスト)</a></li>
-        <li><a href="info.php">info.php(phpinfo)</a></li>
-    </ul>
+       <h1><a href="title.html">title.htmlへ</a></h1>
+</p>
         
 </body>
 </html>

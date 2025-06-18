@@ -8,10 +8,11 @@
 </head>
 <body>
     <h1 class="title">難易度を選択してね</h1>
-        <button class="difficult" onclick="selectDiff(easy)">簡単</button>
-        <button class="difficult" onclick="selectDiff(normal)">普通</button>
-        <button class="difficult" onclick="selectDiff(hard)">難しい</button>
-        <script src="../public/select.js"></script>
-    </div>
+    <form action="game.php" method="post">
+        <input type="radio" name="Diff" value="やさしい">やさしい
+        <input type="radio" name="Diff" value="ふつう">ふつう
+        <input type="radio" name="Diff" value="むずかしい">むずかしい
+        <input type="submit" value="送信">
+    </form>
 </body>
 </html>
