@@ -1,0 +1,2136 @@
+一	 一:single
+丁	 一:Top    亅:Bottom
+七	 ㇀:Center    乚:Center
+万	 一:Top    丿:Left    𠃌:Right
+丈	 丈:single
+三	 一:Top    二:Bottom
+上	 ⺊:Top    一:Bottom
+下	 一:Top    卜:Bottom
+不	 不:single
+与	 与:single
+且	 且:single
+世	 世:single
+丘	 丘:single
+丙	 一:Top    内:Bottom
+両	 一:Top    冂Center:    山:Center
+並	 䒑:Top    业:Bottom
+中	 口:Center    丨:Center
+串	 吕:Center    丨:Center
+丸	 九:Center    丶:Center
+丹	 丹:single
+主	 丶:Top    王:Bottom
+丼	 井:Outside    丶:Inside
+久	 久:single
+乏	 丿:Top    之:Bottom
+乗	 乗:single
+乙	 乙:single
+九	 九:single
+乞	 𠂉:Top    乙:Bottom
+乱	 舌:Left    乚:Right
+乳	 孚:Left    乚:Right
+乾	 𠦝:Left    乞:Right
+亀	 𠂊:Top    日Center:    电:Center
+了	 乛:Top    亅:Bottom
+予	 龴:Top    𠄐:Bottom
+争	 ⿱𠂊⿻⿻コ一亅
+事	 事:single
+二	 一:Top    一:Bottom
+互	 一:Top    彑:Bottom
+五	 一:Top    𫝀:Bottom
+井	 井:single
+亜	 亜:single
+亡	 亠:Top    𠃊:Bottom
+交	 亠:Top    父:Bottom
+享	 亠:ParallelTop    口:ParallelCenter    子:ParallelBottom
+京	 亠:ParallelTop    口:ParallelCenter    小:ParallelBottom
+亭	 亠:Top    口ParallelTop:    冖:ParallelCenter丁:ParallelBottom
+人	 人:single
+仁	 亻:Left    二:Right
+今	 亼:Top    ㇇:Bottom
+介	 人:Top    丿:Left    丨:Right
+仏	 亻:Left    厶:Right
+仕	 亻:Left    士:Right
+他	 亻:Left    也:Right
+付	 亻:Left    寸:Right
+仙	 亻:Left    山:Right
+代	 亻:Left    弋:Right
+令	 ⿱亼⿱𠃌丨
+以	 以:single
+仮	 亻:Left    反:Right
+仰	 亻:Left    卬:Right
+仲	 亻:Left    中:Right
+件	 亻:Left    牛:Right
+任	 亻:Left    壬:Right
+企	 人:Top    止:Bottom
+伎	 亻:Left    支:Right
+伏	 亻:Left    犬:Right
+伐	 亻:Left    戈:Right
+休	 亻:Left    木:Right
+会	 人:Top    云:Bottom
+伝	 亻:Left    云:Right
+伯	 亻:Left    白:Right
+伴	 亻:Left    半:Right
+伸	 亻:Left    申:Right
+伺	 亻:Left    司:Right
+似	 亻:Left    以:Right
+但	 亻:Left    旦:Right
+位	 亻:Left    立:Right
+低	 亻:Left    氐:Right
+住	 亻:Left    主:Right
+佐	 亻:Left    左:Right
+体	 亻:Left    本:Right
+何	 亻:Left    可:Right
+余	 亼:Top    朩:Bottom
+作	 亻:Left    乍:Right
+佳	 亻:Left    圭:Right
+併	 亻:Left    并:Right
+使	 亻:Left    吏:Right
+例	 亻:Left    列:Right
+侍	 亻:Left    寺:Right
+供	 亻:Left    共:Right
+依	 亻:Left    衣:Right
+価	 亻:Left    覀:Right
+侮	 亻:Left    毎:Right
+侯	 亻:Left    ユ:Top    矢:Bottom
+侵	 亻:Left    𠬶:Right
+侶	 亻:Left    呂:Right
+便	 亻:Left    更:Right
+係	 亻:Left    系:Right
+促	 亻:Left    足:Right
+俊	 亻:Left    夋:Right
+俗	 亻:Left    谷:Right
+保	 亻:Left    呆:Right
+信	 亻:Left    言:Right
+修	 亻:VerticalLeft    丨:VerticalCenter    㣊:VerticalRight
+俳	 亻:Left    非:Right
+俵	 亻:Left    表:Right
+俸	 亻:Left    奉:Right
+俺	 亻:Left    奄:Right
+倉	 ⿱亼⿸⿴尸一口
+個	 亻:Left    固:Right
+倍	 亻:Left    咅:Right
+倒	 亻:Left    到:Right
+候	 ⿰⿰亻丨⿱ユ矢
+借	 亻:Left    昔:Right
+倣	 亻:Left    放:Right
+値	 亻:Left    直:Right
+倫	 亻:Left    侖:Right
+倹	 亻:Left    㑒:Right
+偉	 亻:Left    韋:Right
+偏	 亻:Left    扁:Right
+停	 亻:Left    亭:Right
+健	 亻:Left    建:Right
+側	 亻:Left    則:Right
+偵	 亻:Left    貞:Right
+偶	 亻:Left    禺:Right
+偽	 亻:Left    為:Right
+傍	 亻:Left    旁:Right
+傑	 亻:Left    桀:Right
+傘	 人:Top    十Center:    𠈌:Center
+備	 ⿰亻⿱卄⿸厂用
+催	 亻:Left    崔:Right
+傲	 亻:Left    敖:Right
+債	 亻:Left    責:Right
+傷	 亻:Left    𬀷:Right
+傾	 亻:Left    頃:Right
+僅	 亻:Left    𦰌:Right
+働	 亻:Left    動:Right
+像	 亻:Left    象:Right
+僕	 亻:Left    菐:Right
+僚	 亻:Left    尞:Right
+僧	 亻:Left    曽:Right
+儀	 亻:Left    義:Right
+億	 亻:Left    意:Right
+儒	 亻:Left    需:Right
+償	 亻:Left    賞:Right
+優	 亻:Left    憂:Right
+元	 一:Top    兀:Bottom
+兄	 口:Top    儿:Bottom
+充	 𠫓:Top    儿:Bottom
+兆	 兆:single
+先	 𠂒:Top    儿:Bottom
+光	 ⺌:Top    兀:Bottom
+克	 古:Top    儿:Bottom
+免	 𠂊:ParallelTop    𫩏:ParallelCenter    儿:ParallelBottom
+児	 旧:Top    儿:Bottom
+党	 龸:Top    兄:Bottom
+入	 入:single
+全	 人:Top    王:Bottom
+八	 八:single
+公	 八:Top    厶:Bottom
+六	 亠:Top    八:Bottom
+共	 龷:Top    八:Bottom
+兵	 丘:Top    八:Bottom
+具	 目:ParallelTop    一:ParallelCenter    八:ParallelBottom
+典	 典:single
+兼	 兼:single
+内	 冂:Center    人:Center
+円	 円:single
+冊	 𦉫:Center    一:Center
+再	 一:Top    冉:Bottom
+冒	 日:Top    目:Bottom
+冗	 冖:Top    几:Bottom
+写	 冖:Top    与:Bottom
+冠	 冖:Top    㝴:Bottom
+冥	 冖:Top    昗:Bottom
+冬	 夂:Top    ⺀:Bottom
+冶	 冫:Left    台:Right
+冷	 冫:Left    令:Right
+凄	 冫:Left    妻:Right
+准	 冫:Left    隹:Right
+凍	 冫:Left    東:Right
+凝	 冫:Left    疑:Right
+凡	 几:TopOutside    丶:BottomInside
+処	 夂:BottomLeftOutside    几:TopRightInside
+凶	 凵:BottomOutside    㐅:TopInside
+凸	 凸:single
+凹	 凹:single
+出	 屮:Top    凵:Bottom
+刀	 𠃌:TopRightOutside    丿:BottomLeftInside
+刃	 刀:Center    丶:Center
+分	 八:Top    刀:Bottom
+切	 七:Left    刀:Right
+刈	 㐅:Left    刂:Right
+刊	 干:Left    刂:Right
+刑	 开:Left    刂:Right
+列	 歹:Left    刂:Right
+初	 衤:Left    刀:Right
+判	 半:Left    刂:Right
+別	 𠮠:Left    刂:Right
+利	 禾:Left    刂:Right
+到	 至:Left    刂:Right
+制	 牛:Left    冂Center:    刂:Center
+刷	 𡰯:Left    刂:Right
+券	 龹:Top    刀:Bottom
+刹	 杀:Left    刂:Right
+刺	 朿:Left    刂:Right
+刻	 亥:Left    刂:Right
+則	 貝:Left    刂:Right
+削	 肖:Left    刂:Right
+前	 䒑:Top    刖:Bottom
+剖	 咅:Left    刂:Right
+剛	 岡:Left    刂:Right
+剝	 彔:Left    刂:Right
+剣	 㑒:Left    刂:Right
+剤	 斉:Left    刂:Right
+副	 畐:Left    刂:Right
+剰	 乗:Left    刂:Right
+割	 害:Left    刂:Right
+創	 倉:Left    刂:Right
+劇	 豦:Left    刂:Right
+力	 丿:Center    𠃌:Center
+功	 工:Left    力:Right
+加	 力:Left    口:Right
+劣	 少:Top    力:Bottom
+助	 且:Left    力:Right
+努	 奴:Top    力:Bottom
+励	 厉:Left    力:Right
+労	 𭕄:ParallelTop    冖:ParallelCenter    力:ParallelBottom
+効	 交:Left    力:Right
+劾	 亥:Left    力:Right
+勃	 孛:Left    力:Right
+勅	 束:Left    力:Right
+勇	 龴:ParallelTop    田:ParallelCenter    力:ParallelBottom
+勉	 免:BottomLeftOutside    力:TopRightInside
+動	 重:Left    力:Right
+勘	 甚:Left    力:Right
+務	 矛:Left    攵:Top    力:Bottom
+勝	 月:Left    劵:Right
+募	 莫:Top    力:Bottom
+勢	 埶:Top    力:Bottom
+勤	 𦰌:Left    力:Right
+勧	 𮥶:Left    力:Right
+勲	 動:Top    灬:Bottom
+勾	 勹:TopRightOutside    厶:BottomLeftInside
+匂	 勹:TopRightOutside    匕:BottomLeftInside
+包	 勹:TopRightOutside    己:BottomLeftInside
+化	 亻:Left    匕:Right
+北	 北:single
+匠	 匚:LeftOutside    斤:RightInside
+匹	 匚:LeftOutside    儿:RightInside
+区	 匚:LeftOutside    㐅:RightInside
+医	 匚:LeftOutside    矢:RightInside
+匿	 匚:LeftOutside    若:RightInside
+十	 十:single
+千	 丿:Top    十:Bottom
+升	 丿:Top    廾:Bottom
+午	 𠂉:Top    十:Bottom
+半	 丷:Top    二Center:    丨:Center
+卑	 丿:Top    𤰞:Bottom
+卒	 𠅃:Top    十:Bottom
+卓	 ⺊:Top    早:Bottom
+協	 十:Left    劦:Right
+南	 十:Top    冂TopOutside:    𢆉:BottomInside
+単	 𭕄:Top    甲Center:    一:Center
+博	 ⿰十⿱⿺𤰔丶寸
+占	 ⺊:Top    口:Bottom
+印	 印:single
+危	 厃:TopLeftOutside    㔾:BottomRightInside
+即	 即:single
+却	 去:Left    卩:Right
+卵	 𠂑:Left    卪:Right
+卸	 𦈢:Left    卩:Right
+厄	 厂:TopLeftOutside    㔾:BottomRightInside
+厘	 厂:TopLeftOutside    里:BottomRightInside
+厚	 厂:TopLeftOutside    㫗:BottomRightInside
+原	 厂:TopLeftOutside    白Top:    小:Bottom
+厳	 𭕄:Top    𠪚:Bottom
+去	 土:Top    厶:Bottom
+参	 厶:ParallelTop    大:ParallelCenter    彡:ParallelBottom
+又	 又:single
+及	 及:single
+友	 𠂇:TopLeftOutside    又:BottomRightInside
+双	 又:Left    又:Right
+反	 厂:TopLeftOutside    又:BottomRightInside
+収	 丩:Left    又:Right
+叔	 尗:Left    又:Right
+取	 耳:TopLeftOutside    又:BottomRightInside
+受	 爫:ParallelTop    冖:ParallelCenter    又:ParallelBottom
+叙	 余:Left    又:Right
+口	 口:single
+古	 十:Top    口:Bottom
+句	 勹:TopRightOutside    口:BottomLeftInside
+叫	 口:Left    丩:Right
+召	 刀:Top    口:Bottom
+可	 丁:TopRightOutside    口:BottomLeftInside
+台	 厶:Top    口:Bottom
+史	 史:single
+右	 𠂇:TopLeftOutside    口:BottomRightInside
+号	 口:Top    丂:Bottom
+司	 𠃌:TopRightOutside    𠮛:BottomLeftInside
+各	 夂:Top    口:Bottom
+合	 亼:Top    口:Bottom
+吉	 士:Top    口:Bottom
+同	 𠔼:TopOutside    口:BottomInside
+名	 夕:Top    口:Bottom
+后	 𠂋:TopLeftOutside    口:BottomRightInside
+吏	 一:Center    史:Center
+吐	 口:Left    土:Right
+向	 ⿵⿱丿冂口
+君	 尹:TopLeftOutside    口:BottomRightInside
+吟	 口:Left    今:Right
+否	 不:Top    口:Bottom
+含	 今:Top    口:Bottom
+吸	 口:Left    及:Right
+吹	 口:Left    欠:Right
+呂	 口:ParallelTop    丿:ParallelCenter    口:ParallelBottom
+呈	 口:Top    王:Bottom
+呉	 ⿳⿺𠃑口一八
+告	 𠂒:Top    口:Bottom
+周	 ⺆:TopOutside    𠮷:BottomInside
+呪	 口:Left    兄:Right
+味	 口:Left    未:Right
+呼	 口:Left    乎:Right
+命	 亼:Top    叩:Bottom
+和	 禾:Left    口:Right
+咲	 口:Left    关:Right
+咽	 口:Left    因:Right
+哀	 亠:ParallelTop    口:ParallelCenter    𧘇:ParallelBottom
+品	 口:Top    吅:Bottom
+員	 口:Top    貝:Bottom
+哲	 折:Top    口:Bottom
+哺	 口:Left    甫:Right
+唄	 口:Left    貝:Right
+唆	 口:Left    夋:Right
+唇	 辰:Top    口:Bottom
+唐	 ⿸广⿱⿻⿻コ一丨口
+唯	 口:Left    隹:Right
+唱	 口:Left    昌:Right
+唾	 口:Left    垂:Right
+商	 亠:ParallelTop    丷:ParallelCenter    冏:ParallelBottom
+問	 門:TopOutside    口:BottomInside
+啓	 戸:Left    攵:Right    口:Bottom
+善	 羊:ParallelTop    䒑:ParallelCenter    口:ParallelBottom
+喉	 口:Left    侯:Right
+喚	 口:Left    奐:Right
+喜	 壴:Top    口:Bottom
+喝	 口:Left    日:Top    匂:Bottom
+喩	 口:Left    兪:Right
+喪	 ⿱⿻土吅⿰𠄌⿺乀丿
+喫	 口:Left    契:Right
+営	 𭕄:ParallelTop    冖:ParallelCenter    呂:ParallelBottom
+嗅	 口:Left    臭:Right
+嗣	 口:Top    𠕁Bottom:    司:Right
+嘆	 口:Left    𦰩:Right
+嘱	 口:Left    属:Right
+嘲	 口:Left    朝:Right
+器	 吅:ParallelTop    大:ParallelCenter    吅:ParallelBottom
+噴	 口:Left    賁:Right
+嚇	 口:Left    赫:Right
+囚	 囗:Outside    人:Inside
+四	 囗:Outside    儿:Inside
+回	 囗:Outside    口:Inside
+因	 囗:Outside    大:Inside
+団	 囗:Outside    寸:Inside
+困	 囗:Outside    木:Inside
+囲	 囗:Outside    井:Inside
+図	 ⿴囗⿱⺀乂
+固	 囗:Outside    古:Inside
+国	 囗:Outside    玉:Inside
+圏	 囗:Outside    巻:Inside
+園	 囗:Outside    袁:Inside
+土	 十:Top    一:Bottom
+圧	 厂:TopLeftOutside    土:BottomRightInside
+在	 在:single
+地	 土:Left    也:Right
+坂	 土:Left    反:Right
+均	 土:Left    勻:Right
+坊	 土:Left    方:Right
+坑	 土:Left    亢:Right
+坪	 土:Left    平:Right
+垂	 垂:single
+型	 刑:Top    土:Bottom
+垣	 土:Left    亘:Right
+埋	 土:Left    里:Right
+城	 土:Left    成:Right
+域	 土:Left    或:Right
+執	 幸:Left    丸:Right
+培	 土:Left    咅:Right
+基	 其:Top    土:Bottom
+埼	 土:Left    奇:Right
+堀	 土:Left    屈:Right
+堂	 𫩠:Top    土:Bottom
+堅	 臤:Top    土:Bottom
+堆	 土:Left    隹:Right
+堕	 陏:Top    土:Bottom
+堤	 土:Left    是:Right
+堪	 土:Left    甚:Right
+報	 幸:Left    𠬝:Right
+場	 土:Left    昜:Right
+塀	 土:Left    屏:Right
+塁	 ⿳田⿱丷八土
+塊	 土:Left    鬼:Right
+塑	 朔:Top    土:Bottom
+塔	 土:Left    荅:Right
+塗	 涂:Top    土:Bottom
+塚	 土:Left    冖:Top    豕:Bottom
+塞	 𡨄:Top    土:Bottom
+塡	 土:Left    眞:Right
+塩	 土:Left    𬐚:Right
+塾	 孰:Top    土:Bottom
+境	 土:Left    竟:Right
+墓	 莫:Top    土:Bottom
+増	 土:Left    曽:Right
+墜	 隊:Top    土:Bottom
+墨	 黒:Top    土:Bottom
+墳	 土:Left    賁:Right
+墾	 貇:Top    土:Bottom
+壁	 辟:Top    土:Bottom
+壇	 土:Left    亶:Right
+壊	 土:Left    十:Top    𭾱:Bottom
+壌	 土:Left    㐮:Right
+士	 十:Top    一:Bottom
+壮	 丬:Left    士:Right
+声	 士:Top    𠃜:Bottom
+壱	 士:ParallelTop    冖:ParallelCenter    匕:ParallelBottom
+売	 士:Top    冗:Bottom
+変	 亦:Top    夂:Bottom
+夏	 𦣻:Top    夂:Bottom
+夕	 𠂊:Outside    丶:Inside
+外	 夕:Left    卜:Right
+多	 夕:Top    夕:Bottom
+夜	 ⿱亠⿰亻⿴夂丶
+夢	 𦭝:ParallelTop    冖:ParallelCenter    夕:ParallelBottom
+大	 一:Center    人:Center
+天	 一:Top    大:Bottom
+太	 大:TopOutside    丶:BottomInside
+夫	 二:Center    人:Center
+央	 央:single
+失	 丿:Left    夫:Right
+奇	 大:Top    可:Bottom
+奈	 大:Top    示:Bottom
+奉	 𡗗:Top    二Center:    丨:Center
+奏	 𡗗:Top    天:Bottom
+契	 𭃌:Top    大:Bottom
+奔	 大:Top    卉:Bottom
+奥	 ⿱⿵⿱丿冂米大
+奨	 将:Top    大:Bottom
+奪	 奞:Top    寸:Bottom
+奮	 奞:Top    田:Bottom
+女	 女:single
+奴	 女:Left    又:Right
+好	 女:Left    子:Right
+如	 女:Left    口:Right
+妃	 女:Left    己:Right
+妄	 亡:Top    女:Bottom
+妊	 女:Left    壬:Right
+妖	 女:Left    夭:Right
+妙	 女:Left    少:Right
+妥	 爫:Top    女:Bottom
+妨	 女:Left    方:Right
+妬	 女:Left    石:Right
+妹	 女:Left    未:Right
+妻	 ⿱⿻十⿻コ一女
+姉	 女:Left    市:Right
+始	 女:Left    台:Right
+姓	 女:Left    生:Right
+委	 禾:Top    女:Bottom
+姫	 女:Left    臣:Right
+姻	 女:Left    因:Right
+姿	 次:Top    女:Bottom
+威	 戌:TopOutside    女:BottomInside
+娘	 女:Left    良:Right
+娠	 女:Left    辰:Right
+娯	 女:Left    呉:Right
+婆	 波:Top    女:Bottom
+婚	 女:Left    昏:Right
+婦	 女:Left    帚:Right
+婿	 女:Left    胥:Right
+媒	 女:Left    某:Right
+媛	 女:Left    爰:Right
+嫁	 女:Left    家:Right
+嫉	 女:Left    疾:Right
+嫌	 女:Left    兼:Right
+嫡	 女:Left    啇:Right
+嬢	 女:Left    㐮:Right
+子	 子:single
+孔	 子:Left    乚:Right
+字	 宀:Top    子:Bottom
+存	 存:single
+孝	 耂:TopLeftOutside    子:BottomRightInside
+季	 禾:Top    子:Bottom
+孤	 子:Left    瓜:Right
+学	 𭕄:ParallelTop    冖:ParallelCenter    子:ParallelBottom
+孫	 子:Left    系:Right
+宅	 宀:Top    乇:Bottom
+宇	 宀:Top    于:Bottom
+守	 宀:Top    寸:Bottom
+安	 宀:Top    女:Bottom
+完	 宀:Top    元:Bottom
+宗	 宀:Top    示:Bottom
+官	 宀:Top    㠯:Bottom
+宙	 宀:Top    由:Bottom
+定	 宀:Top    𤴓:Bottom
+宛	 宀:Top    夗:Bottom
+宜	 宀:Top    且:Bottom
+宝	 宀:Top    玉:Bottom
+実	 宀:Top    𡗗:Bottom
+客	 宀:Top    各:Bottom
+宣	 宀:Top    亘:Bottom
+室	 宀:Top    至:Bottom
+宮	 宀:Top    呂:Bottom
+宰	 宀:Top    辛:Bottom
+害	 宀:ParallelTop    龶:ParallelCenter    口:ParallelBottom
+宴	 宀:Top    妟:Bottom
+宵	 宀:Top    肖:Bottom
+家	 宀:Top    豕:Bottom
+容	 宀:Top    谷:Bottom
+宿	 宀:Top    佰:Bottom
+寂	 宀:Top    叔:Bottom
+寄	 宀:Top    奇:Bottom
+密	 宓:Top    山:Bottom
+富	 宀:Top    畐:Bottom
+寒	 𡨄:Top    ⺀:Bottom
+寛	 宀:Top    莧:Bottom
+寝	 宀:Top    丬:Left    𠬶:Right
+察	 宀:Top    祭:Bottom
+寡	 ⿳宀⿱丆且分
+寧	 𫲽:ParallelTop    罒:ParallelCenter    丁:ParallelBottom
+審	 宀:Top    番:Bottom
+寮	 宀:Top    尞:Bottom
+寸	 寸:single
+寺	 土:Top    寸:Bottom
+対	 文:Left    寸:Right
+寿	 丰:TopLeftOutside    寸:BottomRightInside
+封	 圭:Left    寸:Right
+専	 𤰔:Top    寸:Bottom
+射	 身:Left    寸:Right
+将	 丬:Left    寽:Right
+尉	 𫵖:Left    寸:Right
+尊	 酋:Top    寸:Bottom
+尋	 ⿳彐⿰工口寸
+導	 道:Top    寸:Bottom
+小	 小:single
+少	 小:Top    丿:Bottom
+尚	 ⺌:Top    冋:Bottom
+就	 京:Left    尤:Right
+尺	 尺:single
+尻	 尸:TopLeftOutside    九:BottomRightInside
+尼	 尸:TopLeftOutside    匕:BottomRightInside
+尽	 尺:Top    ⺀:Bottom
+尾	 尸:TopLeftOutside    毛:BottomRightInside
+尿	 尸:TopLeftOutside    水:BottomRightInside
+局	 ⿸尸⿹𠃌口
+居	 尸:TopLeftOutside    古:BottomRightInside
+屈	 尸:TopLeftOutside    出:BottomRightInside
+届	 尸:TopLeftOutside    由:BottomRightInside
+屋	 尸:TopLeftOutside    至:BottomRightInside
+展	 ⿸尸⿱龷⿰𠄌⿺乀丿
+属	 尸:TopLeftOutside    禹:BottomRightInside
+層	 尸:TopLeftOutside    曽:BottomRightInside
+履	 尸:TopLeftOutside    復:BottomRightInside
+屯	 丿:Center    𡳾:Center
+山	 山:single
+岐	 山:Left    支:Right
+岡	 ⿵冂⿱䒑山
+岩	 山:Top    石:Bottom
+岬	 山:Left    甲:Right
+岳	 丘:Top    山:Bottom
+岸	 山:Top    厈:Bottom
+峠	 山:Left    𠧗:Right
+峡	 山:Left    夹:Right
+峰	 山:Left    夆:Right
+島	 島:single
+崇	 山:Top    宗:Bottom
+崎	 山:Left    奇:Right
+崖	 山:Top    厓:Bottom
+崩	 山:Top    朋:Bottom
+嵐	 山:Top    風:Bottom
+川	 川:single
+州	 州:single
+巡	 辶:BottomLeftOutside    巛:TopRightInside
+巣	 𭕄:Top    果:Bottom
+工	 工:single
+左	 𠂇:TopLeftOutside    工:BottomRightInside
+巧	 工:Left    丂:Right
+巨	 巨:single
+差	 𦍌:TopLeftOutside    丿Top:    工:Bottom
+己	 己:single
+巻	 龹:Top    己:Bottom
+巾	 巾:single
+市	 亠:Top    巾:Bottom
+布	 𠂇:TopLeftOutside    巾:BottomRightInside
+帆	 巾:Left    凡:Right
+希	 㐅:Top    布:Bottom
+帝	 ⿱⿱⿱亠丷冖巾
+帥	 𠂤:Left    巾:Right
+師	 𠂤:Left    帀:Right
+席	 广:TopLeftOutside    廿Top:    巾:Bottom
+帯	 丗:ParallelTop    冖:ParallelCenter    巾:ParallelBottom
+帰	 丨:VerticalLeft    丿:VerticalCenter    帚:VerticalRight
+帳	 巾:Left    長:Right
+常	 𫩠:Top    巾:Bottom
+帽	 巾:Left    冒:Right
+幅	 巾:Left    畐:Right
+幕	 莫:Top    巾:Bottom
+幣	 敝:Top    巾:Bottom
+干	 干:single
+平	 干:Center    丷:Center
+年	 年:single
+幸	 土:Top    𢆉:Bottom
+幹	 𠦝:Left    𫢉:Right
+幻	 幺:Left    𠃌:Right
+幼	 幺:Left    力:Right
+幽	 山:Center    𢆶:Center
+幾	 ⿹⿻戈𢆶人
+庁	 广:TopLeftOutside    丁:BottomRightInside
+広	 广:TopLeftOutside    厶:BottomRightInside
+床	 广:TopLeftOutside    木:BottomRightInside
+序	 广:TopLeftOutside    予:BottomRightInside
+底	 广:TopLeftOutside    氐:BottomRightInside
+店	 广:TopLeftOutside    占:BottomRightInside
+府	 广:TopLeftOutside    付:BottomRightInside
+度	 广:TopLeftOutside    廿Top:    又:Bottom
+座	 广:TopLeftOutside    坐:BottomRightInside
+庫	 广:TopLeftOutside    車:BottomRightInside
+庭	 广:TopLeftOutside    廷:BottomRightInside
+庶	 广:TopLeftOutside    廿Top:    灬:Bottom
+康	 广:TopLeftOutside    隶:BottomRightInside
+庸	 广:TopLeftOutside    𬎾:BottomRightInside
+廃	 广:TopLeftOutside    発:BottomRightInside
+廉	 广:TopLeftOutside    兼:BottomRightInside
+廊	 广:TopLeftOutside    郎:BottomRightInside
+延	 廴:BottomLeftOutside    丿Top:    止:Bottom
+廷	 廴:BottomLeftOutside    壬:TopRightInside
+建	 廴:BottomLeftOutside    聿:TopRightInside
+弁	 厶:Top    廾:Bottom
+弄	 王:Top    廾:Bottom
+弊	 敝:Top    廾:Bottom
+式	 弋:TopRightOutside    工:BottomLeftInside
+弐	 弍:Center    一:Center
+弓	 弓:single
+弔	 弓:Center    丨:Center
+引	 弓:Left    丨:Right
+弟	 丷:Top    𢎨:Bottom
+弥	 弓:Left    尓:Right
+弦	 弓:Left    玄:Right
+弧	 弓:Left    瓜:Right
+弱	 ⿰⿹弓冫⿹弓冫
+張	 弓:Left    長:Right
+強	 弓:Left    𧈧:Right
+弾	 弓:Left    単:Right
+当	 ⺌:Top    彐:Bottom
+彙	 彑:ParallelTop    冖:ParallelCenter    果:ParallelBottom
+形	 开:Left    彡:Right
+彩	 采:Left    彡:Right
+彫	 周:Left    彡:Right
+彰	 章:Left    彡:Right
+影	 景:Left    彡:Right
+役	 彳:Left    殳:Right
+彼	 彳:Left    皮:Right
+往	 彳:Left    主:Right
+征	 彳:Left    正:Right
+径	 彳:Left    圣:Right
+待	 彳:Left    寺:Right
+律	 彳:Left    聿:Right
+後	 彳:Left    幺:Top    夂:Bottom
+徐	 彳:Left    余:Right
+徒	 彳:Left    走:Right
+従	 彳:Left    丷:Top    𤴓:Bottom
+得	 彳:Left    㝵:Right
+御	 彳:Left    卸:Right
+復	 彳:Left    复:Right
+循	 彳:Left    盾:Right
+微	 彳:Left    𣁋:Right
+徳	 ⿰彳⿳十罒心
+徴	 彳:VerticalLeft    㞷:VerticalCenter    攵:VerticalRight
+徹	 彳:VerticalLeft    育:VerticalCenter    攵:VerticalRight
+心	 心:single
+必	 心:Center    丿:Center
+忌	 己:Top    心:Bottom
+忍	 刃:Top    心:Bottom
+志	 士:Top    心:Bottom
+忘	 亡:Top    心:Bottom
+忙	 忄:Left    亡:Right
+応	 广:TopLeftOutside    心:BottomRightInside
+忠	 中:Top    心:Bottom
+快	 忄:Left    夬:Right
+念	 今:Top    心:Bottom
+怒	 奴:Top    心:Bottom
+怖	 忄:Left    布:Right
+思	 田:Top    心:Bottom
+怠	 台:Top    心:Bottom
+急	 刍:Top    心:Bottom
+性	 忄:Left    生:Right
+怨	 夗:Top    心:Bottom
+怪	 忄:Left    圣:Right
+恋	 亦:Top    心:Bottom
+恐	 巩:Top    心:Bottom
+恒	 忄:Left    亘:Right
+恣	 次:Top    心:Bottom
+恥	 耳:Left    心:Right
+恨	 忄:Left    艮:Right
+恩	 因:Top    心:Bottom
+恭	 共:Top    㣺:Bottom
+息	 自:Top    心:Bottom
+恵	 𤰔:Top    心:Bottom
+悔	 忄:Left    毎:Right
+悟	 忄:Left    吾:Right
+悠	 攸:Top    心:Bottom
+患	 串:Top    心:Bottom
+悦	 忄:Left    兑:Right
+悩	 忄:Left    𭕄:Top    凶:Bottom
+悪	 亜:Top    心:Bottom
+悲	 非:Top    心:Bottom
+悼	 忄:Left    卓:Right
+情	 忄:Left    青:Right
+惑	 或:Top    心:Bottom
+惜	 忄:Left    昔:Right
+惧	 忄:Left    具:Right
+惨	 忄:Left    参:Right
+惰	 忄:Left    左:Top    月:Bottom
+想	 相:Top    心:Bottom
+愁	 秋:Top    心:Bottom
+愉	 忄:Left    俞:Right
+意	 音:Top    心:Bottom
+愚	 禺:Top    心:Bottom
+愛	 爫:ParallelTop    冖:ParallelCenter    𢖻:ParallelBottom
+感	 咸:Top    心:Bottom
+慄	 忄:Left    栗:Right
+慈	 兹:Top    心:Bottom
+態	 能:Top    心:Bottom
+慌	 忄:Left    荒:Right
+慎	 忄:Left    真:Right
+慕	 莫:Top    㣺:Bottom
+慢	 忄:Left    曼:Right
+慣	 忄:Left    貫:Right
+慨	 忄:Left    既:Right
+慮	 虍:TopLeftOutside    思:BottomRightInside
+慰	 尉:Top    心:Bottom
+慶	 ⿸⿸广⿻コ⿰丨丨⿱乛𢖻
+憂	 㥑:Top    夂:Bottom
+憎	 忄:Left    曽:Right
+憤	 忄:Left    賁:Right
+憧	 忄:Left    童:Right
+憩	 舌:Left    自:Right    心:Bottom
+憬	 忄:Left    景:Right
+憲	 𡩜:Top    心:Bottom
+憶	 忄:Left    意:Right
+憾	 忄:Left    感:Right
+懇	 貇:Top    心:Bottom
+懐	 忄:Left    十:Top    𭾱:Bottom
+懲	 徴:Top    心:Bottom
+懸	 縣:Top    心:Bottom
+成	 戊:TopOutside    𠃌:BottomInside
+我	 我:single
+戒	 戈:TopRightOutside    廾:BottomLeftInside
+戚	 戊:TopOutside    尗:BottomInside
+戦	 単:Left    戈:Right
+戯	 虚:Left    戈:Right
+戴	 𢦏:TopRightOutside    異:BottomLeftInside
+戸	 一:Top    尸:Bottom
+戻	 戸:TopLeftOutside    大:BottomRightInside
+房	 戸:TopLeftOutside    方:BottomRightInside
+所	 戸:Left    斤:Right
+扇	 戸:TopLeftOutside    羽:BottomRightInside
+扉	 戸:TopLeftOutside    非:BottomRightInside
+手	 手:single
+才	 才:single
+打	 扌:Left    丁:Right
+払	 扌:Left    厶:Right
+扱	 扌:Left    及:Right
+扶	 扌:Left    夫:Right
+批	 扌:Left    比:Right
+承	 承:single
+技	 扌:Left    支:Right
+抄	 扌:Left    少:Right
+把	 扌:Left    巴:Right
+抑	 扌:Left    卬:Right
+投	 扌:Left    殳:Right
+抗	 扌:Left    亢:Right
+折	 扌:Left    斤:Right
+抜	 扌:Left    友:Right
+択	 扌:Left    尺:Right
+披	 扌:Left    皮:Right
+抱	 扌:Left    包:Right
+抵	 扌:Left    氐:Right
+抹	 扌:Left    末:Right
+押	 扌:Left    甲:Right
+抽	 扌:Left    由:Right
+担	 扌:Left    旦:Right
+拉	 扌:Left    立:Right
+拍	 扌:Left    白:Right
+拐	 扌:Left    叧:Right
+拒	 扌:Left    巨:Right
+拓	 扌:Left    石:Right
+拘	 扌:Left    句:Right
+拙	 扌:Left    出:Right
+招	 扌:Left    召:Right
+拝	 扌:Left    一:Top    丰:Bottom
+拠	 扌:Left    処:Right
+拡	 扌:Left    広:Right
+括	 扌:Left    舌:Right
+拭	 扌:Left    式:Right
+拳	 龹:Top    手:Bottom
+拶	 扌:Left    𡿪:Right
+拷	 扌:Left    考:Right
+拾	 扌:Left    合:Right
+持	 扌:Left    寺:Right
+指	 扌:Left    旨:Right
+挑	 扌:Left    兆:Right
+挙	 兴:Top    手:Bottom
+挟	 扌:Left    夹:Right
+挨	 扌:Left    矣:Right
+挫	 扌:Left    坐:Right
+振	 扌:Left    辰:Right
+挿	 扌:Left    𢆍:Right
+捉	 扌:Left    足:Right
+捕	 扌:Left    甫:Right
+捗	 扌:Left    步:Right
+捜	 扌:Left    叟:Right
+捨	 扌:Left    舎:Right
+据	 扌:Left    居:Right
+捻	 扌:Left    念:Right
+掃	 扌:Left    帚:Right
+授	 扌:Left    受:Right
+掌	 𫩠:Top    手:Bottom
+排	 扌:Left    非:Right
+掘	 扌:Left    屈:Right
+掛	 扌:Left    卦:Right
+採	 扌:Left    采:Right
+探	 扌:Left    罙:Right
+接	 扌:Left    妾:Right
+控	 扌:Left    空:Right
+推	 扌:Left    隹:Right
+措	 扌:Left    昔:Right
+掲	 扌:Left    日:Top    匂:Bottom
+描	 扌:Left    苗:Right
+提	 扌:Left    是:Right
+揚	 扌:Left    昜:Right
+換	 扌:Left    奐:Right
+握	 扌:Left    屋:Right
+揮	 扌:Left    軍:Right
+援	 扌:Left    爰:Right
+揺	 扌:Left    爫:Top    𠙻:Bottom
+損	 扌:Left    員:Right
+搬	 扌:Left    般:Right
+搭	 扌:Left    荅:Right
+携	 扌:Left    隽:Right
+搾	 扌:Left    窄:Right
+摂	 ⿰扌⿱耳⿱丷八
+摘	 扌:Left    啇:Right
+摩	 麻:TopLeftOutside    手:BottomRightInside
+摯	 執:Top    手:Bottom
+撃	 軗:Top    手:Bottom
+撤	 扌:VerticalLeft    育:VerticalCenter    攵:VerticalRight
+撮	 扌:Left    最:Right
+撲	 扌:Left    菐:Right
+擁	 扌:Left    雍:Right
+操	 扌:Left    喿:Right
+擦	 扌:Left    察:Right
+擬	 扌:Left    疑:Right
+支	 十:Top    又:Bottom
+改	 己:Left    攵:Right
+攻	 工:Left    攵:Right
+放	 方:Left    攵:Right
+政	 正:Left    攵:Right
+故	 古:Left    攵:Right
+敏	 毎:Left    攵:Right
+救	 求:Left    攵:Right
+敗	 貝:Left    攵:Right
+教	 孝:Left    攵:Right
+敢	 丅:Top    耳Bottom:    攵:Right
+散	 龷:Top    ⺼Bottom:    攵:Right
+敬	 苟:Left    攵:Right
+数	 娄:Left    攵:Right
+整	 敕:Top    正:Bottom
+敵	 啇:Left    攵:Right
+敷	 ⿰⿱⿺𤰔丶方攵
+文	 亠:Top    乂:Bottom
+斉	 ⿱文⿲丿二丨
+斎	 齐:TopOutside    示:BottomInside
+斑	 王:VerticalLeft    文:VerticalCenter    王:VerticalRight
+斗	 斗:single
+料	 米:Left    斗:Right
+斜	 余:Left    斗:Right
+斤	 𠂆:TopLeftOutside    丅:BottomRightInside
+斥	 斤:Center    丶:Center
+斬	 車:Left    斤:Right
+断	 ⿰⿺𠃊米斤
+新	 亲:Left    斤:Right
+方	 亠:Top    丿:Left    𠃌:Right
+施	 方:Left    㐌:Right
+旅	 旅:single
+旋	 方:Left    𭻾:Right
+族	 方:Left    𠂉:Top    矢:Bottom
+旗	 方:Left    𠂉:Top    其:Bottom
+既	 既:single
+日	 日:single
+旦	 日:Top    一:Bottom
+旧	 丨:Left    日:Right
+旨	 匕:Top    日:Bottom
+早	 日:Top    十:Bottom
+旬	 勹:TopRightOutside    日:BottomLeftInside
+旺	 日:Left    王:Right
+昆	 日:Top    比:Bottom
+昇	 日:Top    升:Bottom
+明	 日:Left    月:Right
+易	 日:Top    勿:Bottom
+昔	 龷:Top    日:Bottom
+星	 日:Top    生:Bottom
+映	 日:Left    央:Right
+春	 𡗗:Top    日:Bottom
+昧	 日:Left    未:Right
+昨	 日:Left    乍:Right
+昭	 日:Left    召:Right
+是	 日:Top    𤴓:Bottom
+昼	 尺:Top    旦:Bottom
+時	 日:Left    寺:Right
+晩	 日:Left    免:Right
+普	 並:Top    日:Bottom
+景	 日:Top    京:Bottom
+晴	 日:Left    青:Right
+晶	 日:Top    昍:Bottom
+暁	 日:Left    尭:Right
+暇	 日:Left    叚:Right
+暑	 日:Top    者:Bottom
+暖	 日:Left    爰:Right
+暗	 日:Left    音:Right
+暦	 𠩵:TopLeftOutside    日:BottomRightInside
+暫	 斬:Top    日:Bottom
+暮	 莫:Top    日:Bottom
+暴	 日:Top    㳟:Bottom
+曇	 日:Top    雲:Bottom
+曖	 日:Left    愛:Right
+曜	 日:Left    翟:Right
+曲	 曲:single
+更	 一:Top    日Center:    乂:Center
+書	 𦘒:ParallelTop    一:ParallelCenter    日:ParallelBottom
+曹	 ⿱⿻一曲日
+曽	 𬎿:Top    日:Bottom
+替	 㚘:Top    日:Bottom
+最	 日:Top    取:Bottom
+月	 月:single
+有	 𠂇:TopLeftOutside    月:BottomRightInside
+服	 月:Left    𠬝:Right
+朕	 月:Left    关:Right
+朗	 朗:single
+望	 亡:Left    月:Right    王:Bottom
+朝	 𠦝:Left    月:Right
+期	 其:Left    月:Right
+木	 木:single
+未	 未:single
+末	 末:single
+本	 本:single
+札	 木:Left    乚:Right
+朱	 朱:single
+朴	 木:Left    卜:Right
+机	 木:Left    几:Right
+朽	 木:Left    丂:Right
+杉	 木:Left    彡:Right
+材	 木:Left    才:Right
+村	 木:Left    寸:Right
+束	 束:single
+条	 夂:Top    木:Bottom
+来	 来:single
+杯	 木:Left    不:Right
+東	 東:single
+松	 木:Left    公:Right
+板	 木:Left    反:Right
+析	 木:Left    斤:Right
+枕	 木:Left    冘:Right
+林	 木:Left    木:Right
+枚	 木:Left    攵:Right
+果	 日:Center    木:Center
+枝	 木:Left    支:Right
+枠	 木:Left    卆:Right
+枢	 木:Left    区:Right
+枯	 木:Left    古:Right
+架	 加:Top    木:Bottom
+柄	 木:Left    丙:Right
+某	 甘:Top    木:Bottom
+染	 氿:Top    木:Bottom
+柔	 矛:Top    木:Bottom
+柱	 木:Left    主:Right
+柳	 木:Left    卯:Right
+柵	 木:Left    冊:Right
+査	 木:Top    且:Bottom
+柿	 木:Left    市:Right
+栃	 ⿰木⿸𠂆万
+栄	 𭕄:ParallelTop    冖:ParallelCenter    木:ParallelBottom
+栓	 木:Left    全:Right
+校	 木:Left    交:Right
+株	 木:Left    朱:Right
+核	 木:Left    亥:Right
+根	 木:Left    艮:Right
+格	 木:Left    各:Right
+栽	 𢦏:TopRightOutside    木:BottomLeftInside
+桁	 木:Left    行:Right
+桃	 木:Left    兆:Right
+案	 安:Top    木:Bottom
+桑	 叒:Top    木:Bottom
+桜	 木:Left    𭕄:Top    女:Bottom
+桟	 木:Left    㦮:Right
+梅	 木:Left    毎:Right
+梗	 木:Left    更:Right
+梨	 利:Top    木:Bottom
+械	 木:Left    戒:Right
+棄	 𠫓:Top    𭩠:Bottom
+棋	 木:Left    其:Right
+棒	 木:Left    奉:Right
+棚	 木:Left    朋:Right
+棟	 木:Left    東:Right
+森	 木:Top    林:Bottom
+棺	 木:Left    官:Right
+椅	 木:Left    奇:Right
+植	 木:Left    直:Right
+椎	 木:Left    隹:Right
+検	 木:Left    㑒:Right
+業	 业:Top    𦍎:Bottom
+極	 木:Left    亟:Right
+楷	 木:Left    皆:Right
+楼	 木:Left    娄:Right
+楽	 ⿱⿴⿱丷八白木
+概	 木:Left    既:Right
+構	 木:Left    冓:Right
+様	 木:Left    𣴎:Right
+槽	 木:Left    曹:Right
+標	 木:Left    票:Right
+模	 木:Left    莫:Right
+権	 木:Left    𮥶:Right
+横	 木:Left    黄:Right
+樹	 木:Left    尌:Right
+橋	 木:Left    喬:Right
+機	 木:Left    幾:Right
+欄	 木:Left    䦨:Right
+欠	 欠:single
+次	 冫:Left    欠:Right
+欧	 区:Left    欠:Right
+欲	 谷:Left    欠:Right
+欺	 其:Left    欠:Right
+款	 士:Top    示Bottom:    欠:Right
+歌	 哥:Left    欠:Right
+歓	 𮥶:Left    欠:Right
+止	 止:single
+正	 一:Top    止:Bottom
+武	 ⿹⿶弋一止
+歩	 止:Top    少:Bottom
+歯	 ⿱止⿶凵米
+歳	 止:Top    戌TopOutside:    小:BottomInside
+歴	 𠩵:TopLeftOutside    止:BottomRightInside
+死	 歹:TopLeftOutside    匕:BottomRightInside
+殉	 歹:Left    旬:Right
+殊	 歹:Left    朱:Right
+残	 歹:Left    㦮:Right
+殖	 歹:Left    直:Right
+殴	 区:Left    殳:Right
+段	 段:single
+殺	 㐅:Top    木Bottom:    殳:Right
+殻	 壳:Left    殳:Right
+殿	 𡱒:Left    殳:Right
+毀	 臼:Top    土Bottom:    殳:Right
+母	 母:single
+毎	 𠂉:Top    毋:Bottom
+毒	 龶:Top    毋:Bottom
+比	 比:single
+毛	 丿:Top    二Center:    乚:Center
+氏	 氏:single
+民	 民:single
+気	 气:TopRightOutside    㐅:BottomLeftInside
+水	 ⿲㇇亅⿺乀丿
+氷	 水:Center    丶:Center
+永	 永:single
+氾	 氵:Left    㔾:Right
+汁	 氵:Left    十:Right
+求	 ⿺⿻一氺丶
+汎	 氵:Left    凡:Right
+汗	 氵:Left    干:Right
+汚	 氵:Left    亐:Right
+江	 氵:Left    工:Right
+池	 氵:Left    也:Right
+汰	 氵:Left    太:Right
+決	 氵:Left    夬:Right
+汽	 氵:Left    气:Right
+沃	 氵:Left    夭:Right
+沈	 氵:Left    冘:Right
+沖	 氵:Left    中:Right
+沙	 氵:Left    少:Right
+没	 氵:Left    殳:Right
+沢	 氵:Left    尺:Right
+河	 氵:Left    可:Right
+沸	 氵:Left    弗:Right
+油	 氵:Left    由:Right
+治	 氵:Left    台:Right
+沼	 氵:Left    召:Right
+沿	 氵:Left    㕣:Right
+況	 氵:Left    兄:Right
+泉	 白:Top    水:Bottom
+泊	 氵:Left    白:Right
+泌	 氵:Left    必:Right
+法	 氵:Left    去:Right
+泡	 氵:Left    包:Right
+波	 氵:Left    皮:Right
+泣	 氵:Left    立:Right
+泥	 氵:Left    尼:Right
+注	 氵:Left    主:Right
+泰	 𡗗:Top    氺:Bottom
+泳	 氵:Left    永:Right
+洋	 氵:Left    羊:Right
+洗	 氵:Left    先:Right
+洞	 氵:Left    同:Right
+津	 氵:Left    聿:Right
+洪	 氵:Left    共:Right
+活	 氵:Left    舌:Right
+派	 氵:Left    𠂢:Right
+流	 氵:Left    㐬:Right
+浄	 氵:Left    争:Right
+浅	 氵:Left    㦮:Right
+浜	 氵:Left    兵:Right
+浦	 氵:Left    甫:Right
+浪	 氵:Left    良:Right
+浮	 氵:Left    孚:Right
+浴	 氵:Left    谷:Right
+海	 氵:Left    毎:Right
+浸	 氵:Left    𠬶:Right
+消	 氵:Left    肖:Right
+涙	 氵:Left    戻:Right
+涯	 氵:Left    厓:Right
+液	 氵:Left    夜:Right
+涼	 氵:Left    京:Right
+淑	 氵:Left    叔:Right
+淡	 氵:Left    炎:Right
+淫	 氵:Left    㸒:Right
+深	 氵:Left    罙:Right
+混	 氵:Left    昆:Right
+添	 氵:Left    忝:Right
+清	 氵:Left    青:Right
+渇	 氵:Left    日:Top    匂:Bottom
+済	 氵:Left    斉:Right
+渉	 氵:Left    歩:Right
+渋	 ⿰氵⿱止⿱丷八
+渓	 氵:Left    爫:Top    夫:Bottom
+減	 氵:Left    咸:Right
+渡	 氵:Left    度:Right
+渦	 氵:Left    咼:Right
+温	 氵:Left    昷:Right
+測	 氵:Left    則:Right
+港	 氵:Left    巷:Right
+湖	 氵:Left    胡:Right
+湧	 氵:Left    勇:Right
+湯	 氵:Left    昜:Right
+湾	 氵:Left    弯:Right
+湿	 氵:Left    显:Right
+満	 氵:Left    艹:Top    両:Bottom
+源	 氵:Left    原:Right
+準	 淮:Top    十:Bottom
+溝	 氵:Left    冓:Right
+溶	 氵:Left    容:Right
+溺	 氵:Left    弱:Right
+滅	 氵:Left    烕:Right
+滋	 氵:Left    兹:Right
+滑	 氵:Left    骨:Right
+滝	 氵:Left    竜:Right
+滞	 氵:Left    帯:Right
+滴	 氵:Left    啇:Right
+漁	 氵:Left    魚:Right
+漂	 氵:Left    票:Right
+漆	 氵:Left    桼:Right
+漏	 氵:Left    屚:Right
+演	 氵:Left    寅:Right
+漠	 氵:Left    莫:Right
+漢	 氵:Left    𦰩:Right
+漫	 氵:Left    曼:Right
+漬	 氵:Left    責:Right
+漸	 氵:Left    斬:Right
+潔	 氵:Left    絜:Right
+潜	 氵:Left    替:Right
+潟	 氵:Left    舄:Right
+潤	 氵:Left    閏:Right
+潮	 氵:Left    朝:Right
+潰	 氵:Left    貴:Right
+澄	 氵:Left    登:Right
+激	 氵:Left    敫:Right
+濁	 氵:Left    蜀:Right
+濃	 氵:Left    農:Right
+濫	 氵:Left    監:Right
+濯	 氵:Left    翟:Right
+瀬	 氵:Left    頼:Right
+火	 八:Top    人:Bottom
+灯	 火:Left    丁:Right
+灰	 厂:TopLeftOutside    火:BottomRightInside
+災	 巛:Top    火:Bottom
+炉	 火:Left    戸:Right
+炊	 火:Left    欠:Right
+炎	 火:Top    火:Bottom
+炭	 山:Top    灰:Bottom
+点	 占:Top    灬:Bottom
+為	 為:single
+烈	 列:Top    灬:Bottom
+無	 𠂉:Top    卌ParallelTop:    一:ParallelCenter灬:ParallelBottom
+焦	 隹:Top    灬:Bottom
+然	 ⿱⿰⿴𠂊冫犬灬
+焼	 火:Left    尭:Right
+煎	 前:Top    灬:Bottom
+煙	 火:Left    垔:Right
+照	 昭:Top    灬:Bottom
+煩	 火:Left    頁:Right
+煮	 者:Top    灬:Bottom
+熊	 能:Top    灬:Bottom
+熟	 孰:Top    灬:Bottom
+熱	 埶:Top    灬:Bottom
+燃	 火:Left    然:Right
+燥	 火:Left    喿:Right
+爆	 火:Left    暴:Right
+爪	 爪:single
+爵	 爫:ParallelTop    罒:ParallelCenter    𡬠:ParallelBottom
+父	 八:Top    乂:Bottom
+爽	 大:Center    㸚:Center
+片	 片:single
+版	 片:Left    反:Right
+牙	 牙:single
+牛	 牛:single
+牧	 牛:Left    攵:Right
+物	 牛:Left    勿:Right
+牲	 牛:Left    生:Right
+特	 牛:Left    寺:Right
+犠	 牛:Left    義:Right
+犬	 犬:single
+犯	 犭:Left    㔾:Right
+状	 丬:Left    犬:Right
+狂	 犭:Left    王:Right
+狙	 犭:Left    且:Right
+狩	 犭:Left    守:Right
+独	 犭:Left    虫:Right
+狭	 犭:Left    夹:Right
+猛	 犭:Left    孟:Right
+猟	 犭:Left    鼡:Right
+猫	 犭:Left    苗:Right
+献	 南:Left    犬:Right
+猶	 犭:Left    酋:Right
+猿	 犭:Left    袁:Right
+獄	 犭:VerticalLeft    言:VerticalCenter    犬:VerticalRight
+獣	 ⿰⿳畄一口犬
+獲	 犭:Left    蒦:Right
+玄	 亠:Top    幺:Bottom
+率	 ⿱⿻玄⿱丷八十
+玉	 王:LeftOutside    丶:RightInside
+王	 一:Top    土:Bottom
+玩	 王:Left    元:Right
+珍	 王:Left    㐱:Right
+珠	 王:Left    朱:Right
+班	 王:VerticalLeft    リ:VerticalCenter    王:VerticalRight
+現	 王:Left    見:Right
+球	 王:Left    求:Right
+理	 王:Left    里:Right
+琴	 玨:Top    今:Bottom
+瑠	 王:Left    留:Right
+璃	 王:Left    离:Right
+璧	 辟:Top    玉:Bottom
+環	 王:Left    睘:Right
+璽	 爾:Top    玉:Bottom
+瓦	 瓦:single
+瓶	 并:Left    瓦:Right
+甘	 甘:single
+甚	 甚:single
+生	 生:single
+産	 产:TopLeftOutside    生:BottomRightInside
+用	 ⿵冂⿻二丨
+田	 田:single
+由	 由:single
+甲	 甲:single
+申	 申:single
+男	 田:Top    力:Bottom
+町	 田:Left    丁:Right
+画	 ⿱一⿶凵由
+界	 田:Top    介:Bottom
+畏	 ⿳田一⿰𠄌⿺乀丿
+畑	 火:Left    田:Right
+畔	 田:Left    半:Right
+留	 留:single
+畜	 玄:Top    田:Bottom
+畝	 亩:Left    久:Right
+略	 田:Left    各:Right
+番	 釆:Top    田:Bottom
+異	 田:Top    共:Bottom
+畳	 田:Top    冝:Bottom
+畿	 ⿹⿻戈𢆶田
+疎	 𤴔:Left    束:Right
+疑	 𠤕:Left    龴:Top    疋:Bottom
+疫	 疒:TopLeftOutside    殳:BottomRightInside
+疲	 疒:TopLeftOutside    皮:BottomRightInside
+疾	 疒:TopLeftOutside    矢:BottomRightInside
+病	 疒:TopLeftOutside    丙:BottomRightInside
+症	 疒:TopLeftOutside    正:BottomRightInside
+痕	 疒:TopLeftOutside    艮:BottomRightInside
+痘	 疒:TopLeftOutside    豆:BottomRightInside
+痛	 疒:TopLeftOutside    甬:BottomRightInside
+痢	 疒:TopLeftOutside    利:BottomRightInside
+痩	 疒:TopLeftOutside    叟:BottomRightInside
+痴	 疒:TopLeftOutside    知:BottomRightInside
+瘍	 疒:TopLeftOutside    昜:BottomRightInside
+療	 疒:TopLeftOutside    尞:BottomRightInside
+癒	 疒:TopLeftOutside    愈:BottomRightInside
+癖	 疒:TopLeftOutside    辟:BottomRightInside
+発	 癶:Top    二Center:    儿:Center
+登	 癶:Top    豆:Bottom
+白	 白:single
+百	 一:Top    白:Bottom
+的	 白:Left    勺:Right
+皆	 比:Top    白:Bottom
+皇	 白:Top    王:Bottom
+皮	 皮:single
+皿	 皿:single
+盆	 分:Top    皿:Bottom
+益	 䒑:ParallelTop    八:ParallelCenter    皿:ParallelBottom
+盗	 次:Top    皿:Bottom
+盛	 成:Top    皿:Bottom
+盟	 明:Top    皿:Bottom
+監	 ⿱⿰臣⿱𠂉一皿
+盤	 般:Top    皿:Bottom
+目	 目:single
+盲	 亡:Top    目:Bottom
+直	 十:Top    𠃊BottomLeftOutside:    目:TopRightInside
+相	 木:Left    目:Right
+盾	 𠂆:TopLeftOutside    𥃭:BottomRightInside
+省	 少:Top    目:Bottom
+眉	 𠃜:TopLeftOutside    目:BottomRightInside
+看	 龵:Top    目:Bottom
+県	 ⿱⿺𠃊目小
+真	 十:Top    具:Bottom
+眠	 目:Left    民:Right
+眺	 目:Left    兆:Right
+眼	 目:Left    艮:Right
+着	 𦍌:TopLeftOutside    丿Top:    目:Bottom
+睡	 目:Left    垂:Right
+督	 叔:Top    目:Bottom
+睦	 目:Left    坴:Right
+瞬	 目:Left    舜:Right
+瞭	 目:Left    尞:Right
+瞳	 目:Left    童:Right
+矛	 ⿱龴⿹𠄐丿
+矢	 𠂉:Top    大:Bottom
+知	 矢:Left    口:Right
+短	 矢:Left    豆:Right
+矯	 矢:Left    喬:Right
+石	 丆:TopLeftOutside    口:BottomRightInside
+砂	 石:Left    少:Right
+研	 石:Left    开:Right
+砕	 石:Left    卆:Right
+砲	 石:Left    包:Right
+破	 石:Left    皮:Right
+硝	 石:Left    肖:Right
+硫	 石:Left    㐬:Right
+硬	 石:Left    更:Right
+碁	 其:Top    石:Bottom
+碑	 石:Left    卑:Right
+確	 石:Left    隺:Right
+磁	 石:Left    兹:Right
+磨	 麻:TopLeftOutside    石:BottomRightInside
+礁	 石:Left    焦:Right
+礎	 石:Left    楚:Right
+示	 示:single
+礼	 礻:Left    乚:Right
+社	 礻:Left    土:Right
+祈	 礻:Left    斤:Right
+祉	 礻:Left    止:Right
+祖	 礻:Left    且:Right
+祝	 礻:Left    兄:Right
+神	 礻:Left    申:Right
+祥	 礻:Left    羊:Right
+票	 覀:Top    示:Bottom
+祭	 ⿱⿰⿴𠂊冫又示
+禁	 林:Top    示:Bottom
+禅	 礻:Left    単:Right
+禍	 礻:Left    咼:Right
+福	 礻:Left    畐:Right
+秀	 禾:Top    乃:Bottom
+私	 禾:Left    厶:Right
+秋	 禾:Left    火:Right
+科	 禾:Left    斗:Right
+秒	 禾:Left    少:Right
+秘	 禾:Left    必:Right
+租	 禾:Left    且:Right
+秩	 禾:Left    失:Right
+称	 禾:Left    尓:Right
+移	 禾:Left    多:Right
+程	 禾:Left    呈:Right
+税	 禾:Left    兑:Right
+稚	 禾:Left    隹:Right
+種	 禾:Left    重:Right
+稲	 禾:Left    爫:Top    旧:Bottom
+稼	 禾:Left    家:Right
+稽	 禾:Left    尤:Top    旨:Bottom
+稿	 禾:Left    高:Right
+穀	 ⿰⿳士冖禾殳
+穂	 禾:Left    恵:Right
+積	 禾:Left    責:Right
+穏	 禾:Left    𢚩:Right
+穫	 禾:Left    蒦:Right
+穴	 宀:Top    八:Bottom
+究	 穴:Top    九:Bottom
+空	 穴:Top    工:Bottom
+突	 穴:Top    大:Bottom
+窃	 穴:Top    切:Bottom
+窒	 穴:Top    至:Bottom
+窓	 穴:ParallelTop    厶:ParallelCenter    心:ParallelBottom
+窟	 穴:Top    屈:Bottom
+窮	 穴:Top    躬:Bottom
+窯	 穴:Top    羔:Bottom
+立	 亠:ParallelTop    丷:ParallelCenter    一:ParallelBottom
+竜	 立:Top    日Center:    乚:Center
+章	 立:Top    早:Bottom
+童	 立:Top    里:Bottom
+端	 立:Left    耑:Right
+競	 竞:Left    竞:Right
+竹	 亇:Left    亇:Right
+笑	 竹:Top    夭:Bottom
+笛	 竹:Top    由:Bottom
+符	 竹:Top    付:Bottom
+第	 竹:Top    𢎨:Bottom
+筆	 竹:Top    聿:Bottom
+等	 竹:Top    寺:Bottom
+筋	 竹:Top    肋:Bottom
+筒	 竹:Top    同:Bottom
+答	 竹:Top    合:Bottom
+策	 竹:Top    朿:Bottom
+箇	 竹:Top    固:Bottom
+箋	 竹:Top    戔:Bottom
+算	 竹:Top    𥃲:Bottom
+管	 竹:Top    官:Bottom
+箱	 竹:Top    相:Bottom
+箸	 竹:Top    者:Bottom
+節	 竹:Top    即:Bottom
+範	 竹:Top    𨊠:Bottom
+築	 筑:Top    木:Bottom
+篤	 竹:Top    馬:Bottom
+簡	 竹:Top    間:Bottom
+簿	 ⿱竹⿰氵⿱⿺𤰔丶寸
+籍	 竹:Top    耤:Bottom
+籠	 竹:Top    龍:Bottom
+米	 米:single
+粉	 米:Left    分:Right
+粋	 米:Left    卆:Right
+粒	 米:Left    立:Right
+粗	 米:Left    且:Right
+粘	 米:Left    占:Right
+粛	 粛:single
+粧	 米:Left    庄:Right
+精	 米:Left    青:Right
+糖	 米:Left    唐:Right
+糧	 米:Left    量:Right
+糸	 幺:Top    小:Bottom
+系	 丿:Top    糸:Bottom
+糾	 糸:Left    丩:Right
+紀	 糸:Left    己:Right
+約	 糸:Left    勺:Right
+紅	 糸:Left    工:Right
+紋	 糸:Left    文:Right
+納	 糸:Left    内:Right
+純	 糸:Left    屯:Right
+紙	 糸:Left    氏:Right
+級	 糸:Left    及:Right
+紛	 糸:Left    分:Right
+素	 龶:Top    糸:Bottom
+紡	 糸:Left    方:Right
+索	 十:ParallelTop    冖:ParallelCenter    糸:ParallelBottom
+紫	 此:Top    糸:Bottom
+累	 田:Top    糸:Bottom
+細	 糸:Left    田:Right
+紳	 糸:Left    申:Right
+紹	 糸:Left    召:Right
+紺	 糸:Left    甘:Right
+終	 糸:Left    冬:Right
+組	 糸:Left    且:Right
+経	 糸:Left    圣:Right
+結	 糸:Left    吉:Right
+絞	 糸:Left    交:Right
+絡	 糸:Left    各:Right
+給	 糸:Left    合:Right
+統	 糸:Left    充:Right
+絵	 糸:Left    会:Right
+絶	 糸:Left    色:Right
+絹	 糸:Left    肙:Right
+継	 ⿰糸⿺𠃊米
+続	 糸:Left    売:Right
+維	 糸:Left    隹:Right
+綱	 糸:Left    岡:Right
+網	 糸:Left    罔:Right
+綻	 糸:Left    定:Right
+綿	 糸:Left    帛:Right
+緊	 臤:Top    糸:Bottom
+総	 糸:Left    忩:Right
+緑	 糸:Left    录:Right
+緒	 糸:Left    者:Right
+線	 糸:Left    泉:Right
+締	 糸:Left    帝:Right
+編	 糸:Left    扁:Right
+緩	 糸:Left    爰:Right
+緯	 糸:Left    韋:Right
+練	 糸:Left    東:Right
+緻	 糸:Left    致:Right
+縁	 糸:Left    彐:Top    𧰨:Bottom
+縄	 ⿰糸⿻日电
+縛	 ⿰糸⿱⿺𤰔丶寸
+縦	 糸:Left    従:Right
+縫	 糸:Left    逢:Right
+縮	 糸:Left    宿:Right
+績	 糸:Left    責:Right
+繁	 敏:Top    糸:Bottom
+繊	 糸:Left    𢦏TopRightOutside:    业:BottomLeftInside
+織	 糸:Left    戠:Right
+繕	 糸:Left    善:Right
+繭	 ⿱艹⿻⿵冂丨𬗌
+繰	 糸:Left    喿:Right
+缶	 缶:single
+罪	 罒:Top    非:Bottom
+置	 罒:Top    直:Bottom
+罰	 罒:Top    䚯:Bottom
+署	 罒:Top    者:Bottom
+罵	 罒:Top    馬:Bottom
+罷	 罒:Top    能:Bottom
+羅	 罒:Top    維:Bottom
+羊	 䒑:Top    二Center:    丨:Center
+美	 𦍌:Top    大:Bottom
+羞	 𦍌:TopLeftOutside    丿Top:    丑:Bottom
+群	 君:Left    羊:Right
+羨	 𦍌:Top    㳄:Bottom
+義	 𦍌:Top    我:Bottom
+羽	 习:Left    习:Right
+翁	 公:Top    羽:Bottom
+翌	 羽:Top    立:Bottom
+習	 羽:Top    白:Bottom
+翻	 番:Left    羽:Right
+翼	 羽:Top    異:Bottom
+老	 耂:TopLeftOutside    匕:BottomRightInside
+考	 耂:TopLeftOutside    丂:BottomRightInside
+者	 耂:TopLeftOutside    日:BottomRightInside
+耐	 而:Left    寸:Right
+耕	 耒:Left    井:Right
+耗	 耒:Left    毛:Right
+耳	 耳:single
+聖	 𦔻:Top    王:Bottom
+聞	 門:TopOutside    耳:BottomInside
+聴	 ⿰耳⿳十罒心
+職	 耳:Left    戠:Right
+肉	 肉:single
+肌	 月:Left    几:Right
+肖	 ⺌:Top    月:Bottom
+肘	 月:Left    寸:Right
+肝	 月:Left    干:Right
+股	 月:Left    殳:Right
+肢	 月:Left    支:Right
+肥	 月:Left    巴:Right
+肩	 戸:TopLeftOutside    月:BottomRightInside
+肪	 月:Left    方:Right
+肯	 止:Top    月:Bottom
+育	 𠫓:Top    月:Bottom
+肺	 月:Left    市:Right
+胃	 田:Top    月:Bottom
+胆	 月:Left    旦:Right
+背	 北:Top    月:Bottom
+胎	 月:Left    台:Right
+胞	 月:Left    包:Right
+胴	 月:Left    同:Right
+胸	 月:Left    匈:Right
+能	 䏍:Left    𫧇:Right
+脂	 月:Left    旨:Right
+脅	 劦:Top    月:Bottom
+脇	 月:Left    劦:Right
+脈	 月:Left    𠂢:Right
+脊	 ⿱⿻人⿱丷八月
+脚	 月:Left    却:Right
+脱	 月:Left    兑:Right
+脳	 月:Left    𭕄:Top    凶:Bottom
+腎	 臤:Top    月:Bottom
+腐	 府:TopLeftOutside    肉:BottomRightInside
+腕	 月:Left    宛:Right
+腫	 月:Left    重:Right
+腰	 月:Left    要:Right
+腸	 月:Left    昜:Right
+腹	 月:Left    复:Right
+腺	 月:Left    泉:Right
+膚	 虍:TopLeftOutside    胃:BottomRightInside
+膜	 月:Left    莫:Right
+膝	 月:Left    桼:Right
+膨	 月:Left    彭:Right
+膳	 月:Left    善:Right
+臆	 月:Left    意:Right
+臓	 月:Left    蔵:Right
+臣	 臣:single
+臨	 臣:Left    𠂉:Top    品:Bottom
+自	 自:single
+臭	 自:Top    大:Bottom
+至	 𠫔:Top    土:Bottom
+致	 至:Left    攵:Right
+臼	 臼:single
+興	 ⿶⿳𦥑一八同
+舌	 千:Top    口:Bottom
+舎	 人:Top    𠮷:Bottom
+舗	 舎:Left    甫:Right
+舞	 𠂉:Top    卌ParallelTop:    一:ParallelCenter舛:ParallelBottom
+舟	 舟:single
+航	 舟:Left    亢:Right
+般	 舟:Left    殳:Right
+舶	 舟:Left    白:Right
+舷	 舟:Left    玄:Right
+船	 舟:Left    㕣:Right
+艇	 舟:Left    廷:Right
+艦	 舟:Left    監:Right
+良	 丨:Top    艮:Bottom
+色	 𠂊:Top    巴:Bottom
+艶	 豊:Left    色:Right
+芋	 艹:Top    于:Bottom
+芝	 艹:Top    之:Bottom
+芯	 艹:Top    心:Bottom
+花	 艹:Top    化:Bottom
+芳	 艹:Top    方:Bottom
+芸	 艹:Top    云:Bottom
+芽	 艹:Top    牙:Bottom
+苗	 艹:Top    田:Bottom
+苛	 艹:Top    可:Bottom
+若	 艹:Top    右:Bottom
+苦	 艹:Top    古:Bottom
+英	 艹:Top    央:Bottom
+茂	 艹:Top    戊:Bottom
+茎	 艹:Top    圣:Bottom
+茨	 艹:Top    次:Bottom
+茶	 艹:ParallelTop    人:ParallelCenter    朩:ParallelBottom
+草	 艹:Top    早:Bottom
+荒	 艹:Top    巟:Bottom
+荘	 艹:Top    壮:Bottom
+荷	 艹:Top    何:Bottom
+菊	 艹:Top    匊:Bottom
+菌	 艹:Top    囷:Bottom
+菓	 艹:Top    果:Bottom
+菜	 艹:Top    采:Bottom
+華	 華:single
+萎	 艹:Top    委:Bottom
+落	 艹:Top    洛:Bottom
+葉	 艹:Top    枼:Bottom
+著	 艹:Top    者:Bottom
+葛	 艹:ParallelTop    日:ParallelCenter    匂:ParallelBottom
+葬	 艹:ParallelTop    死:ParallelCenter    廾:ParallelBottom
+蒸	 艹:Top    烝:Bottom
+蓄	 艹:Top    畜:Bottom
+蓋	 艹:Top    盍:Bottom
+蔑	 𦭝:Top    戍:Bottom
+蔵	 艹:Top    𮍏:Bottom
+蔽	 艹:Top    敝:Bottom
+薄	 ⿱艹⿰氵⿱⿺𤰔丶寸
+薦	 艹:Top    廌:Bottom
+薪	 艹:Top    新:Bottom
+薫	 艹:Top    𤋱:Bottom
+薬	 艹:Top    楽:Bottom
+藍	 艹:Top    監:Bottom
+藤	 艹:Top    滕:Bottom
+藩	 艹:Top    潘:Bottom
+藻	 艹:Top    澡:Bottom
+虎	 虍:TopLeftOutside    儿:BottomRightInside
+虐	 ⿸虍⿷匚一
+虚	 虍:TopLeftOutside    业:BottomRightInside
+虜	 虍:TopLeftOutside    男:BottomRightInside
+虞	 虍:TopLeftOutside    呉:BottomRightInside
+虫	 虫:single
+虹	 虫:Left    工:Right
+蚊	 虫:Left    文:Right
+蚕	 天:Top    虫:Bottom
+蛇	 虫:Left    它:Right
+蛍	 𭕄:ParallelTop    冖:ParallelCenter    虫:ParallelBottom
+蛮	 亦:Top    虫:Bottom
+蜂	 虫:Left    夆:Right
+蜜	 宓:Top    虫:Bottom
+融	 鬲:Left    虫:Right
+血	 丿:Top    皿:Bottom
+衆	 血:Top    乑:Bottom
+行	 彳:Left    亍:Right
+術	 彳:VerticalLeft    朮:VerticalCenter    亍:VerticalRight
+街	 彳:VerticalLeft    圭:VerticalCenter    亍:VerticalRight
+衛	 彳:VerticalLeft    韋:VerticalCenter    亍:VerticalRight
+衝	 彳:VerticalLeft    重:VerticalCenter    亍:VerticalRight
+衡	 彳:VerticalLeft    𩵋:VerticalCenter    亍:VerticalRight
+衣	 亠:Top    𧘇:Bottom
+表	 龶:Top    𧘇:Bottom
+衰	 ⿳亠⿻口一𧘇
+衷	 ⿱⿻十口𧘇
+袋	 代:Top    衣:Bottom
+袖	 衤:Left    由:Right
+被	 衤:Left    皮:Right
+裁	 𢦏:TopRightOutside    衣:BottomLeftInside
+裂	 列:Top    衣:Bottom
+装	 壮:Top    衣:Bottom
+裏	 亠:ParallelTop    里:ParallelCenter    𧘇:ParallelBottom
+裕	 衤:Left    谷:Right
+補	 衤:Left    甫:Right
+裸	 衤:Left    果:Right
+製	 制:Top    衣:Bottom
+裾	 衤:Left    居:Right
+複	 衤:Left    复:Right
+褐	 衤:Left    日:Top    匂:Bottom
+褒	 亠:ParallelTop    保:ParallelCenter    𧘇:ParallelBottom
+襟	 衤:Left    禁:Right
+襲	 龍:Top    衣:Bottom
+西	 一:Top    𠁤:Bottom
+要	 覀:Top    女:Bottom
+覆	 覀:Top    復:Bottom
+覇	 覀:Top    䩗:Bottom
+見	 目:Top    儿:Bottom
+規	 夫:Left    見:Right
+視	 礻:Left    見:Right
+覚	 𭕄:ParallelTop    冖:ParallelCenter    見:ParallelBottom
+覧	 ⿱⿰臣⿱𠂉一見
+親	 亲:Left    見:Right
+観	 𮥶:Left    見:Right
+角	 角:single
+解	 角:Left    𭷔:Right
+触	 角:Left    虫:Right
+言	 言:single
+訂	 言:Left    丁:Right
+訃	 言:Left    卜:Right
+計	 言:Left    十:Right
+討	 言:Left    寸:Right
+訓	 言:Left    川:Right
+託	 言:Left    乇:Right
+記	 言:Left    己:Right
+訟	 言:Left    公:Right
+訪	 言:Left    方:Right
+設	 言:Left    殳:Right
+許	 言:Left    午:Right
+訳	 言:Left    尺:Right
+訴	 言:Left    斥:Right
+診	 言:Left    㐱:Right
+証	 言:Left    正:Right
+詐	 言:Left    乍:Right
+詔	 言:Left    召:Right
+評	 言:Left    平:Right
+詞	 言:Left    司:Right
+詠	 言:Left    永:Right
+詣	 言:Left    旨:Right
+試	 言:Left    式:Right
+詩	 言:Left    寺:Right
+詮	 言:Left    全:Right
+詰	 言:Left    吉:Right
+話	 言:Left    舌:Right
+該	 言:Left    亥:Right
+詳	 言:Left    羊:Right
+誇	 言:Left    夸:Right
+誉	 兴:Top    言:Bottom
+誌	 言:Left    志:Right
+認	 言:Left    忍:Right
+誓	 折:Top    言:Bottom
+誕	 言:Left    延:Right
+誘	 言:Left    秀:Right
+語	 言:Left    吾:Right
+誠	 言:Left    成:Right
+誤	 言:Left    呉:Right
+説	 言:Left    兑:Right
+読	 言:Left    売:Right
+誰	 言:Left    隹:Right
+課	 言:Left    果:Right
+調	 言:Left    周:Right
+談	 言:Left    炎:Right
+請	 言:Left    青:Right
+論	 言:Left    侖:Right
+諦	 言:Left    帝:Right
+諧	 言:Left    皆:Right
+諭	 言:Left    俞:Right
+諮	 言:Left    咨:Right
+諸	 言:Left    者:Right
+諾	 言:Left    若:Right
+謀	 言:Left    某:Right
+謁	 言:Left    日:Top    匂:Bottom
+謄	 月:Left    誊:Right
+謎	 言:Left    迷:Right
+謙	 言:Left    兼:Right
+講	 言:Left    冓:Right
+謝	 言:Left    射:Right
+謡	 言:Left    爫:Top    𠙻:Bottom
+謹	 言:Left    𦰌:Right
+識	 言:Left    戠:Right
+譜	 言:Left    普:Right
+警	 敬:Top    言:Bottom
+議	 言:Left    義:Right
+譲	 言:Left    㐮:Right
+護	 言:Left    蒦:Right
+谷	 谷:single
+豆	 豆:single
+豊	 曲:Top    豆:Bottom
+豚	 月:Left    豕:Right
+象	 𠂊:ParallelTop    𫩏:ParallelCenter    𧰨:ParallelBottom
+豪	 亠:Top    口ParallelTop:    冖:ParallelCenter豕:ParallelBottom
+貌	 豸:Left    皃:Right
+貝	 目:Top    八:Bottom
+貞	 ⺊:Top    貝:Bottom
+負	 𠂊:Top    貝:Bottom
+財	 貝:Left    才:Right
+貢	 工:Top    貝:Bottom
+貧	 分:Top    貝:Bottom
+貨	 化:Top    貝:Bottom
+販	 貝:Left    反:Right
+貪	 今:Top    貝:Bottom
+貫	 毌:Top    貝:Bottom
+責	 龶:Top    貝:Bottom
+貯	 貝:Left    宁:Right
+貴	 𠀐:Top    貝:Bottom
+買	 罒:Top    貝:Bottom
+貸	 代:Top    貝:Bottom
+費	 弗:Top    貝:Bottom
+貼	 貝:Left    占:Right
+貿	 貿:single
+賀	 加:Top    貝:Bottom
+賂	 貝:Left    各:Right
+賃	 任:Top    貝:Bottom
+賄	 貝:Left    有:Right
+資	 次:Top    貝:Bottom
+賊	 貝:Left    戈TopRightOutside:    十:BottomLeftInside
+賓	 宀:Top    一ParallelTop:    少:ParallelCenter貝:ParallelBottom
+賛	 㚘:Top    貝:Bottom
+賜	 貝:Left    易:Right
+賞	 𫩠:Top    貝:Bottom
+賠	 貝:Left    咅:Right
+賢	 臤:Top    貝:Bottom
+賦	 貝:Left    武:Right
+質	 斦:Top    貝:Bottom
+賭	 貝:Left    者:Right
+購	 貝:Left    冓:Right
+贈	 貝:Left    曽:Right
+赤	 赤:single
+赦	 赤:Left    攵:Right
+走	 土:Top    龰:Bottom
+赴	 走:BottomLeftOutside    卜:TopRightInside
+起	 走:BottomLeftOutside    巳:TopRightInside
+超	 走:BottomLeftOutside    召:TopRightInside
+越	 走:BottomLeftOutside    戉:TopRightInside
+趣	 走:BottomLeftOutside    取:TopRightInside
+足	 口:Top    龰:Bottom
+距	 𧾷:Left    巨:Right
+跡	 𧾷:Left    亦:Right
+路	 𧾷:Left    各:Right
+跳	 𧾷:Left    兆:Right
+践	 𧾷:Left    㦮:Right
+踊	 𧾷:Left    甬:Right
+踏	 𧾷:Left    沓:Right
+踪	 𧾷:Left    宗:Right
+蹴	 𧾷:Left    就:Right
+躍	 𧾷:Left    翟:Right
+身	 身:single
+車	 車:single
+軌	 車:Left    九:Right
+軍	 冖:Top    車:Bottom
+軒	 車:Left    干:Right
+軟	 車:Left    欠:Right
+転	 車:Left    云:Right
+軸	 車:Left    由:Right
+軽	 車:Left    圣:Right
+較	 車:Left    交:Right
+載	 𢦏:TopRightOutside    車:BottomLeftInside
+輝	 光:Left    軍:Right
+輩	 非:Top    車:Bottom
+輪	 車:Left    侖:Right
+輸	 車:Left    俞:Right
+轄	 車:Left    害:Right
+辛	 立:Top    十:Bottom
+辞	 舌:Left    辛:Right
+辣	 辛:Left    束:Right
+辱	 辰:Top    寸:Bottom
+農	 曲:Top    辰:Bottom
+辺	 辶:BottomLeftOutside    刀:TopRightInside
+込	 辶:BottomLeftOutside    入:TopRightInside
+迅	 辶:BottomLeftOutside    卂:TopRightInside
+迎	 辶:BottomLeftOutside    卬:TopRightInside
+近	 辶:BottomLeftOutside    斤:TopRightInside
+返	 辶:BottomLeftOutside    反:TopRightInside
+迫	 辶:BottomLeftOutside    白:TopRightInside
+迭	 辶:BottomLeftOutside    失:TopRightInside
+述	 辶:BottomLeftOutside    术:TopRightInside
+迷	 辶:BottomLeftOutside    米:TopRightInside
+追	 辶:BottomLeftOutside    𠂤:TopRightInside
+退	 辶:BottomLeftOutside    艮:TopRightInside
+送	 辶:BottomLeftOutside    关:TopRightInside
+逃	 辶:BottomLeftOutside    兆:TopRightInside
+逆	 辶:BottomLeftOutside    屰:TopRightInside
+透	 辶:BottomLeftOutside    秀:TopRightInside
+逐	 辶:BottomLeftOutside    豕:TopRightInside
+逓	 辶:BottomLeftOutside    乕:TopRightInside
+途	 辶:BottomLeftOutside    余:TopRightInside
+通	 辶:BottomLeftOutside    甬:TopRightInside
+逝	 辶:BottomLeftOutside    折:TopRightInside
+速	 辶:BottomLeftOutside    束:TopRightInside
+造	 辶:BottomLeftOutside    告:TopRightInside
+連	 辶:BottomLeftOutside    車:TopRightInside
+逮	 辶:BottomLeftOutside    隶:TopRightInside
+週	 辶:BottomLeftOutside    周:TopRightInside
+進	 辶:BottomLeftOutside    隹:TopRightInside
+逸	 辶:BottomLeftOutside    免:TopRightInside
+遂	 辶:BottomLeftOutside    㒸:TopRightInside
+遅	 辶:BottomLeftOutside    𡱝:TopRightInside
+遇	 辶:BottomLeftOutside    禺:TopRightInside
+遊	 辶:BottomLeftOutside    斿:TopRightInside
+運	 辶:BottomLeftOutside    軍:TopRightInside
+遍	 辶:BottomLeftOutside    扁:TopRightInside
+過	 辶:BottomLeftOutside    咼:TopRightInside
+道	 辶:BottomLeftOutside    首:TopRightInside
+達	 辶:BottomLeftOutside    𦍒:TopRightInside
+違	 辶:BottomLeftOutside    韋:TopRightInside
+遜	 辶:BottomLeftOutside    孫:TopRightInside
+遠	 辶:BottomLeftOutside    袁:TopRightInside
+遡	 辶:BottomLeftOutside    朔:TopRightInside
+遣	 辶:BottomLeftOutside    𠳋:TopRightInside
+適	 辶:BottomLeftOutside    啇:TopRightInside
+遭	 辶:BottomLeftOutside    曹:TopRightInside
+遮	 辶:BottomLeftOutside    庶:TopRightInside
+遵	 辶:BottomLeftOutside    尊:TopRightInside
+遷	 辶:BottomLeftOutside    䙲Top:    己:Bottom
+選	 辶:BottomLeftOutside    巽:TopRightInside
+遺	 辶:BottomLeftOutside    貴:TopRightInside
+避	 辶:BottomLeftOutside    辟:TopRightInside
+還	 辶:BottomLeftOutside    睘:TopRightInside
+那	 刀:Left    二Center:    阝:Center
+邦	 丰:Left    阝:Right
+邪	 牙:Left    阝:Right
+邸	 氐:Left    阝:Right
+郊	 交:Left    阝:Right
+郎	 郎:single
+郡	 君:Left    阝:Right
+部	 咅:Left    阝:Right
+郭	 享:Left    阝:Right
+郵	 垂:Left    阝:Right
+郷	 郷:single
+都	 者:Left    阝:Right
+酌	 酉:Left    勺:Right
+配	 酉:Left    己:Right
+酎	 酉:Left    寸:Right
+酒	 氵:Left    酉:Right
+酔	 酉:Left    卆:Right
+酢	 酉:Left    乍:Right
+酪	 酉:Left    各:Right
+酬	 酉:Left    州:Right
+酵	 酉:Left    孝:Right
+酷	 酉:Left    告:Right
+酸	 酉:Left    夋:Right
+醒	 酉:Left    星:Right
+醜	 酉:Left    鬼:Right
+醸	 酉:Left    㐮:Right
+采	 爫:Top    木:Bottom
+釈	 釆:Left    尺:Right
+里	 甲:Center    二:Center
+重	 重:single
+野	 里:Left    予:Right
+量	 旦:Top    里:Bottom
+金	 人:Top    王Center:    丷:Center
+釜	 父:Top    王Center:    丷:Center
+針	 金:Left    十:Right
+釣	 金:Left    勺:Right
+鈍	 金:Left    屯:Right
+鈴	 金:Left    令:Right
+鉄	 金:Left    失:Right
+鉛	 金:Left    㕣:Right
+鉢	 金:Left    本:Right
+鉱	 金:Left    広:Right
+銀	 金:Left    艮:Right
+銃	 金:Left    充:Right
+銅	 金:Left    同:Right
+銘	 金:Left    名:Right
+銭	 金:Left    㦮:Right
+鋭	 金:Left    兑:Right
+鋳	 金:Left    寿:Right
+鋼	 金:Left    岡:Right
+錠	 金:Left    定:Right
+錦	 金:Left    帛:Right
+錬	 金:Left    東:Right
+錮	 金:Left    固:Right
+錯	 金:Left    昔:Right
+録	 金:Left    录:Right
+鍋	 金:Left    咼:Right
+鍛	 金:Left    段:Right
+鍵	 金:Left    建:Right
+鎌	 金:Left    兼:Right
+鎖	 金:Left    𧴪:Right
+鎮	 金:Left    真:Right
+鏡	 金:Left    竟:Right
+鐘	 金:Left    童:Right
+鑑	 金:Left    監:Right
+長	 長:single
+門	 𠁣:Left    𠃛:Right
+閉	 門:TopOutside    才:BottomInside
+開	 門:TopOutside    开:BottomInside
+閑	 門:TopOutside    木:BottomInside
+間	 門:TopOutside    日:BottomInside
+関	 門:TopOutside    关:BottomInside
+閣	 門:TopOutside    各:BottomInside
+閥	 門:TopOutside    伐:BottomInside
+閲	 門:TopOutside    兑:BottomInside
+闇	 門:TopOutside    音:BottomInside
+闘	 門:TopOutside    𭔰:BottomInside
+阜	 𠂤:Top    十:Bottom
+阪	 阝:Left    反:Right
+防	 阝:Left    方:Right
+阻	 阝:Left    且:Right
+附	 阝:Left    付:Right
+降	 阝:Left    夅:Right
+限	 阝:Left    艮:Right
+陛	 阝:Left    坒:Right
+院	 阝:Left    完:Right
+陣	 阝:Left    車:Right
+除	 阝:Left    余:Right
+陥	 阝:Left    𠂊:Top    旧:Bottom
+陪	 阝:Left    咅:Right
+陰	 阝:Left    侌:Right
+陳	 阝:Left    東:Right
+陵	 阝:Left    夌:Right
+陶	 阝:Left    匋:Right
+陸	 阝:Left    坴:Right
+険	 阝:Left    㑒:Right
+陽	 阝:Left    昜:Right
+隅	 阝:Left    禺:Right
+隆	 阝:Left    夂:Top    生:Bottom
+隊	 阝:Left    㒸:Right
+階	 阝:Left    皆:Right
+随	 阝:Left    迶:Right
+隔	 阝:Left    鬲:Right
+隙	 阝:Left    𡭴:Right
+際	 阝:Left    祭:Right
+障	 阝:Left    章:Right
+隠	 阝:Left    𢚩:Right
+隣	 阝:Left    粦:Right
+隷	 士:Top    示Bottom:    隶:Right
+隻	 隹:Top    又:Bottom
+雄	 厷:Left    隹:Right
+雅	 牙:Left    隹:Right
+集	 隹:Top    木:Bottom
+雇	 戸:TopLeftOutside    隹:BottomRightInside
+雌	 此:Left    隹:Right
+雑	 杂:Left    隹:Right
+離	 离:Left    隹:Right
+難	 𦰩:Left    隹:Right
+雨	 一:Top    𠕒:Bottom
+雪	 雨:Top    彐:Bottom
+雰	 雨:Top    分:Bottom
+雲	 雨:Top    云:Bottom
+零	 雨:Top    令:Bottom
+雷	 雨:Top    田:Bottom
+電	 雨:Top    日Center:    乚:Center
+需	 雨:Top    而:Bottom
+震	 雨:Top    辰:Bottom
+霊	 雨:ParallelTop    一:ParallelCenter    亚:ParallelBottom
+霜	 雨:Top    相:Bottom
+霧	 雨:Top    務:Bottom
+露	 雨:Top    路:Bottom
+青	 龶:Top    月:Bottom
+静	 青:Left    争:Right
+非	 非:single
+面	 丆:Top    囬:Bottom
+革	 革:single
+靴	 革:Left    化:Right
+韓	 𠦝:Left    韋:Right
+音	 立:Top    日:Bottom
+韻	 音:Left    員:Right
+響	 郷:Top    音:Bottom
+頂	 丁:Left    頁:Right
+頃	 匕:Left    頁:Right
+項	 工:Left    頁:Right
+順	 川:Left    頁:Right
+須	 彡:Left    頁:Right
+預	 予:Left    頁:Right
+頑	 元:Left    頁:Right
+頒	 分:Left    頁:Right
+頓	 屯:Left    頁:Right
+領	 令:Left    頁:Right
+頭	 豆:Left    頁:Right
+頰	 夾:Left    頁:Right
+頻	 歩:Left    頁:Right
+頼	 束:Left    頁:Right
+題	 是:BottomLeftOutside    頁:TopRightInside
+額	 客:Left    頁:Right
+顎	 咢:Left    頁:Right
+顔	 彦:Left    頁:Right
+顕	 显:Left    頁:Right
+願	 原:Left    頁:Right
+類	 类:Left    頁:Right
+顧	 雇:Left    頁:Right
+風	 几:TopOutside    䖝:BottomInside
+飛	 飛:single
+食	 人:Top    良:Bottom
+飢	 飠:Left    几:Right
+飯	 飠:Left    反:Right
+飲	 飠:Left    欠:Right
+飼	 飠:Left    司:Right
+飽	 飠:Left    包:Right
+飾	 飠:Left    𠂉:Top    巾:Bottom
+餅	 飠:Left    并:Right
+養	 𦍌:Top    食:Bottom
+餌	 飠:Left    耳:Right
+餓	 飠:Left    我:Right
+館	 飠:Left    官:Right
+首	 䒑:Top    自:Bottom
+香	 禾:Top    日:Bottom
+馬	 馬:single
+駄	 馬:Left    太:Right
+駅	 馬:Left    尺:Right
+駆	 馬:Left    区:Right
+駐	 馬:Left    主:Right
+駒	 馬:Left    句:Right
+騎	 馬:Left    奇:Right
+騒	 馬:Left    𧈡:Right
+験	 馬:Left    㑒:Right
+騰	 月:Left    駦:Right
+驚	 敬:Top    馬:Bottom
+骨	 骨:single
+骸	 骨:Left    亥:Right
+髄	 骨:Left    迶:Right
+高	 亠:ParallelTop    口:ParallelCenter    冋:ParallelBottom
+髪	 髟:Top    友:Bottom
+鬱	 ⿳⿲木缶木冖⿰鬯彡
+鬼	 甶:Top    儿BottomLeftOutside:    厶:TopRightInside
+魂	 云:Left    鬼:Right
+魅	 鬼:BottomLeftOutside    未:TopRightInside
+魔	 麻:TopLeftOutside    鬼:BottomRightInside
+魚	 𠂊:ParallelTop    田:ParallelCenter    灬:ParallelBottom
+鮮	 魚:Left    羊:Right
+鯨	 魚:Left    京:Right
+鳥	 鳥:single
+鳴	 口:Left    鳥:Right
+鶏	 爫:Top    夫Bottom:    鳥:Right
+鶴	 隺:Left    鳥:Right
+鹿	 ⿸⿸广⿻コ⿰丨丨比
+麓	 林:Top    鹿:Bottom
+麗	 丽:Top    鹿:Bottom
+麦	 龶:Top    夂:Bottom
+麺	 麦:BottomLeftOutside    面:TopRightInside
+麻	 广:TopLeftOutside    林:BottomRightInside
+黄	 龷:ParallelTop    由:ParallelCenter    八:ParallelBottom
+黒	 里:Top    灬:Bottom
+黙	 里:Left    犬:Right    灬:Bottom
+鼓	 壴:Left    支:Right
+鼻	 自:Top    𢌿:Bottom
+齢	 歯:Left    令:Right
+𠮟	 口:Left    七:Right
