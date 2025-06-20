@@ -1,13 +1,13 @@
 import re
 
-# "使,⿰亻吏" のような形で漢字とその構造が記載されている
-jouyou_kanji_kouzou_file = open(r"/workspaces/test/public/常用漢字構造一覧(構造記号版).txt", 'r', encoding='UTF-8')
-kanji_kouzou_file = open(r"/workspaces/test/public/常用漢字構造一覧(構造id版).txt", 'w', encoding='UTF-8')
-kanji_kouzou_list = jouyou_kanji_kouzou_file.read().splitlines()  # 漢字構造一覧のリスト
+# "使   ⿰亻吏" のような形で漢字とその構造が記載されている
+kanji_kouzou_kigou_file = open(r"/workspaces/test/public/常用漢字構造一覧(構造記号版).txt", 'r', encoding='UTF-8')
+kanji_kouzou_id_file = open(r"/workspaces/test/public/常用漢字構造一覧(構造id版).txt", 'w', encoding='UTF-8')
+kanji_kouzou_kigou_list = kanji_kouzou_kigou_file.read().splitlines()  # 漢字構造一覧のリスト
 kouzou_list = ["⿰", "⿱", "⿲", "⿳", "⿴", "⿵", "⿶", "⿷", "⿸", "⿹", "⿺", "⿻", "⿼", "⿽"]
-jouyou_kanji_kouzou_list = []  # 常用漢字の構造一覧のリスト
+kanji_kouzou_id_list = []  # 常用漢字の構造一覧のリスト
 
-for kanji_kouzous in kanji_kouzou_list:  # "使,⿰亻吏" のような漢字と漢字構造の文字列をリストから取得
+for kanji_kouzous in kanji_kouzou_kigou_list:  # "使    ⿰亻吏" のような漢字と漢字構造の文字列をリストから取得
     kanji_kouzous = kanji_kouzous.split()  # スペースで分割し漢字と漢字構造のリストにする(["使", "⿰亻吏"] のような形)
     if len(kanji_kouzous[1]) == 1:
         kanji_kouzous[1] = kanji_kouzous[1][0] + ":single"
@@ -71,13 +71,13 @@ for kanji_kouzous in kanji_kouzou_list:  # "使,⿰亻吏" のような漢字と
         print(kanji_kouzous)
 
     kanji_kouzous = '	 '.join(kanji_kouzous)  # リストを文字列("使,⿰亻吏")に戻す
-    jouyou_kanji_kouzou_list.append(kanji_kouzous)  # 常用漢字の構造一覧のリストに追加
+    kanji_kouzou_id_list.append(kanji_kouzous)  # 常用漢字の構造一覧のリストに追加
 
-jouyou_kanji_kouzou_str = "\n".join(jouyou_kanji_kouzou_list)
+kanji_kouzou_id_str = "\n".join(kanji_kouzou_id_list)
 
-kanji_kouzou_file.write(jouyou_kanji_kouzou_str)  # 常用漢字の構造一覧の文字列をテキストファイルに書き出す
+kanji_kouzou_id_file.write(kanji_kouzou_id_str)  # 常用漢字の構造一覧の文字列をテキストファイルに書き出す
 # ファイルクローズ
-jouyou_kanji_kouzou_file.close()
-kanji_kouzou_file.close()
+kanji_kouzou_kigou_file.close()
+kanji_kouzou_id_file.close()
 
 print("書き出し完了")
