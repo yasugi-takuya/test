@@ -5,15 +5,15 @@ const kanji = document.querySelectorAll('.kanji');  // 四字熟語の各漢字�
 const yojijukugo_meaning = document.getElementById('yojijukugo_meaning');  // 四字熟語の意味を表示するpタグ
 const next_btn = document.getElementById('next_btn');  // 次の四字熟語を表示するボタン
 let url;  // 四字熟語が書かれたJSONファイルのurl(相対パス)
-if (diff = "やさしい")
+if (diff == "やさしい")
 {
-    url = 'yojijukugo (1).json';  // 四字熟語が書かれたJSONファイルのurl(相対パス)
+    url = 'yojijukugo_kantan.json';  // 四字熟語が書かれたJSONファイルのurl(相対パス)
 }
-else if (diff = "ふつう") {
-    url = 'yojijukugo (1).json';  // 四字熟語が書かれたJSONファイルのurl(相対パス)
-}
-else if (diff = "むずかしい") {
-    url = 'yojijukugo (1).json';  // 四字熟語が書かれたJSONファイルのurl(相対パス)
+else if (diff == "ふつう") {
+    url = 'yojijukugo_hutuu.json';  // 四字熟語が書かれたJSONファイルのurl(相対パス)
+} 
+else if (diff == "むずかしい") {
+    url = 'yojijukugo_muzukasii.json';  // 四字熟語が書かれたJSONファイルのurl(相対パス)
 }
 
 let counter = 0;  // 四字熟語のカウンタ
