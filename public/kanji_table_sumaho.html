@@ -8,133 +8,151 @@
         table {
             border-collapse: collapse;  /* 全てのテーブルの枠線を重ねて表示する */
         }
+        div.drop-target {
+            border: solid, 1px, #000000;  /* セルのボーダーを設定 */
+            background-color: white;
+            overflow: hidden;  /* はみ出た部分を非表示にする */
+        }
         td {
             border: solid, 1px, #000000;  /* セルのボーダーを設定 */
-            text-align: center;  /* 文字の水平位置を中央寄せ */
-            font-size: 15px;
             padding: 0px;
         }
-        .t1 td {
+        td div.drop-target {
+            border: none;
+        }
+        .t1 td div {
             width: 50px;
             height: 100px;
         }
-        .t2 td {
+        .t2 td div {
             width: 100px;
             height: 50px;
         }
-        .t3 td {
+        .t3 td div {
             width: 33px;
             height: 100px;
         }
-        .t4 td {
+        .t4 td div {
             width: 100px;
             height: 33px;
         }
         #Outside {
-            position: relative;  /* Insideの絶対位置指定の基準にする */
+            position: relative;
+            height: 100px;
             width: 100px;
-            height:100px;
-            background-color: aqua;
         }
-        .class_Inside {
-            position: absolute;  /* Outsideを基準に絶対位置で位置を指定する */
-            top: 25px;  /* Outsideを基準にしたtop位置指定 */
-            left: 25px;  /* Outsideを基準にしたleft位置指定 */
+        #Inside {
+            position: absolute;
+            top: 24px;
+            left: 24px;
+            height: 50px;
             width: 50px;
-            height:50px;
         }
         #TopOutside {
-            vertical-align: bottom;  /* セル内の要素を下端に寄せる */
-            padding: 0px;  /* セル内の余白を0にする */
+            position: relative;
+            height: 100px;
             width: 100px;
-            height:100px;
-        }
-        .class_BottomInside {
-            margin: auto;  /* テーブルの外側の余白を自動調整し、中央寄せにする */
-            width: 50px;
-            height:75px;
         }
         #BottomInside {
-            border-bottom: none; /* セルの下側のボーダーを消す */
+            position: absolute;
+            top: 24px;
+            left: 24px;
+            height: 75px;
+            width: 50px;
+            border-bottom: none;  /* 下側のボーダーを消す */
         }
         #BottomOutside {
-            vertical-align: top;  /* セル内の要素を上端に寄せる */
-            padding: 0px;  /* セル内の余白を0にする */
+            position: relative;
+            height: 100px;
             width: 100px;
-            height:100px;
-        }
-        .class_TopInside {
-            margin: auto;  /* テーブルの外側の余白を自動調整し、中央寄せにする */
-            width: 50px;
-            height: 75px;
         }
         #TopInside {
-            border-top: none; /* セルの上側のボーダーを消す */
+            position: absolute;
+            top: 0px;
+            left: 24px;
+            height: 75px;
+            width: 50px;
+            border-top: none;  /* 上側のボーダーを消す */
         }
         #LeftOutside {
-            padding: 0px;  /* セル内の余白を0にする */
+            position: relative;
+            height: 100px;
             width: 100px;
-            height:100px;
-        }
-        .class_RightInside {
-            margin-left: auto;  /* テーブルの左側の余白を自動調整し、右寄せにする */
-            width: 75px;
-            height: 50px;
         }
         #RightInside {
-            border-right: none; /* セルの右側のボーダーを消す */
+            position: absolute;
+            top: 24px;
+            left: 24px;
+            height: 50px;
+            width: 75px;
+            border-right: none;  /* 右側のボーダーを消す */
         }
         #TopLeftOutside {
-            vertical-align: bottom;  /* セル内の要素を下端に寄せる */
-            padding: 0px;  /* セル内の余白を0にする */
+            position: relative;
+            height: 100px;
             width: 100px;
-            height:100px;
-        }
-        .class_BottomRightInside {
-            margin-left: auto;  /* テーブルの左側の余白を自動調整し、右寄せにする */
-            width: 75px;
-            height: 75px;
         }
         #BottomRightInside {
-            border-bottom: none; /* セルの下側のボーダーを消す */
-            border-right: none; /* セルの右側のボーダーを消す */
+            position: absolute;
+            top: 24px;
+            left: 24px;
+            height: 75px;
+            width: 75px;
+            border-right: none;  /* 右側のボーダーを消す */
+            border-bottom: none;  /* 下側のボーダーを消す */
         }
         #TopRightOutside {
-            vertical-align: bottom;  /* セル内の要素を下端に寄せる */
-            padding: 0px;  /* セル内の余白を0にする */
+            position: relative;
+            height: 100px;
             width: 100px;
-            height:100px;
-        }
-        .class_BottomLeftInside {
-            margin-right: auto;  /* テーブルの右側の余白を自動調整し、左寄せにする */
-            width: 75px;
-            height: 75px;
         }
         #BottomLeftInside {
-            border-bottom: none; /* セルの下側のボーダーを消す */
-            border-left: none; /* セルの左側のボーダーを消す */
+            position: absolute;
+            top: 24px;
+            left: 0px;
+            height: 75px;
+            width: 75px;
+            border-left: none;  /* 左側のボーダーを消す */
+            border-bottom: none;  /* 下側のボーダーを消す */
         }
         #BottomLeftOutside {
-            vertical-align: top;  /* セル内の要素を上端に寄せる */
-            padding: 0px;  /* セル内の余白を0にする */
+            position: relative;
+            height: 100px;
             width: 100px;
-            height:100px;
-        }
-        .class_TopRightInside {
-            margin-left: auto;  /* テーブルの左側の余白を自動調整し、右寄せにする */
-            width: 75px;
-            height: 75px;
         }
         #TopRightInside {
-            border-top: none; /* セルの上側のボーダーを消す */
-            border-right: none; /* セルの右側のボーダーを消す */
+            position: absolute;
+            top: 0px;
+            left: 24px;
+            height: 75px;
+            width: 75px;
+            border-right: none;  /* 右側のボーダーを消す */
+            border-top: none;  /* 上側のボーダーを消す */
         }
         #Center {
-            width: 100px;
+            position: relative;  /* 中に入った漢字パーツの絶対位置指定の基準にする */
             height: 100px;
+            width: 100px;
         }
-        .dragged-item {  /* 漢字パーツのドラッグ前スタイル */
-            display: inline-block;  /* サイズやマージンを設定できるようにする */
+        #Single {
+            height: 100px;
+            width: 100px;
+        }
+        .kanji-table_container {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .kanji-table {  /* 漢字パーツを設置するテーブルを設置するコンテナ */
+            background-color: aqua;
+            margin: 10px;
+        }
+        .kanjiPartsContainer {  /* 漢字パーツを設置するコンテナ */
+            display: flex;
+            border: #000000, 1px, solid;  /* ボーダーを設定 */
+            height: 300px;
+            margin: 10px;
+        }
+        .dragged-item {  /* 漢字パーツのドロップ前スタイル */
             user-select: none; /* 文字の選択を禁止する */
             border: #000000, 1px, solid;  /* ボーダーを設定 */
             text-align: center;  /* 文字の水平位置を中央寄せ */
@@ -142,10 +160,11 @@
             font-size: 50px;
             width: 70px;
             height: 70px;
-            background-color: chocolate;
+            background-color: rgba(255, 255, 0, 0.5);  /* 背景色の設定 */
+            overflow: hidden; /* はみ出た部分を非表示にする */
+            touch-action: none;  /* スクロールやズームの禁止 */
         }
-        .dragged-item-to-drop {  /* 漢字パーツのドラッグ中スタイル */
-            display: inline-block;  /* サイズやマージンを設定できるようにする */
+        .dragged-item-to-drop {  /* 漢字パーツのドロップ後スタイル */
             user-select: none; /* 文字の選択を禁止する */
             border: none;  /* セルのボーダーを設定 */
             text-align: center;  /* 文字の水平位置を中央寄せ */
@@ -153,325 +172,241 @@
             font-size: 50px;
             width: 100%;
             height: 100%;  /* 縦幅、横幅を親要素の100%にする */
-            background-color: chocolate;
-        }
-        .table_container {  /* 漢字パーツを設置するテーブルを設置するコンテナ */
-            display: inline-block;
-        }
-        .kanjiPartsContainer {  /* 漢字パーツを設置するコンテナ */
-            border: #000000, 1px, solid;  /* ボーダーを設定 */
-            height: 300px;
-            margin: 10px;
+            background-color: rgba(255, 255, 0, 0.5);  /* 背景色の設定 */
+            overflow: hidden; /* はみ出た部分を非表示にする */
+            touch-action: none;  /* スクロールやズームの禁止 */
         }
     </style>
 </head>
 <body>
     <p>["⿰", "⿱", "⿲", "⿳", "⿴", "⿵", "⿶", "⿷", "⿸", "⿹", "⿺", "⿻"]</p>
-    <span class="table_container">
-        <p>⿰テーブル</p>
-        <table class="t1">
-            <tr>
-                <td class="drop-target" id="Left"></td>
-                <td class="drop-target" id="Right"></td>
-            </tr>
-        </table>
-    </span>
 
-    <span class="table_container">
-        <p>⿱テーブル</p>
-        <table class="t2">
-            <tr>
-                <td class="drop-target" id="Top"></td>
-            </tr>
-            <tr>
-                <td class="drop-target" id="Bottom"></td>
-            </tr>
-        </table>
-    </span>
+    <div class="kanji-table_container">
+        <span class="kanji-table">
+            <p>⿰テーブル</p>
+            <table class="t1">
+                <tr>
+                    <td><div class="drop-target" id="Left"></div></td>
+                    <td><div class="drop-target" id="Right"></div></td>
+                </tr>
+            </table>
+        </span>
 
-    <span class="table_container">
-        <p>⿲テーブル</p>
-        <table class="t3">
-            <tr>
-                <td class="drop-target" id="VerticalLeft"></td>
-                <td class="drop-target" id="VerticalCenter"></td>
-                <td class="drop-target" id="VerticalRight"></td>
-            </tr>
-        </table>
-    </span>
+        <span class="kanji-table">
+            <p>⿱テーブル</p>
+            <table class="t2">
+                <tr>
+                    <td><div class="drop-target" id="Top"></div></td>
+                </tr>
+                <tr>
+                    <td><div class="drop-target" id="Bottom"></div></td>
+                </tr>
+            </table>
+        </span>
 
-    <span class="table_container">
-        <p>⿳テーブル</p>
-        <table class="t4">
-            <tr>
-                <td class="drop-target" id="ParallelTop"></td>
-            </tr>
-            <tr>
-                <td class="drop-target" id="ParallelCenter"></td>
-            </tr>
-            <tr>
-                <td class="drop-target" id="ParallelBottom"></td>
-            </tr>
-        </table>
-    </span>
+        <span class="kanji-table">
+            <p>⿲テーブル</p>
+            <table class="t3">
+                <tr>
+                    <td><div class="drop-target" id="VerticalLeft"></div></td>
+                    <td><div class="drop-target" id="VerticalCenter"></div></td>
+                    <td><div class="drop-target" id="VerticalRight"></div></td>
+                </tr>
+            </table>
+        </span>
 
-    <span class="table_container">
-        <p>⿴テーブル</p>
-        <table class="t5">
-            <tr>
-                <td class="drop-target" id="Outside">
-                    <table class="class_Inside">
-                        <tr>
-                            <td class="drop-target" id="Inside"></td>
-                        </tr>
-                    </table>
-                </td>
-            </tr>
-        </table>
-    </span>
-    
-    <span class="table_container">
-        <p>⿵テーブル</p>
-        <table class="t6">
-            <tr>
-                <td class="drop-target" id="TopOutside">
-                    <table class="class_BottomInside">
-                        <tr>
-                            <td class="drop-target" id="BottomInside"></td>
-                        </tr>
-                    </table>
-                </td>
-            </tr>
-        </table>
-    </span>
+        <span class="kanji-table">
+            <p>⿳テーブル</p>
+            <table class="t4">
+                <tr>
+                    <td><div class="drop-target" id="ParallelTop"></div></td>
+                </tr>
+                <tr>
+                    <td><div class="drop-target" id="ParallelCenter"></div></td>
+                </tr>
+                <tr>
+                    <td><div class="drop-target" id="ParallelBottom"></div></td>
+                </tr>
+            </table>
+        </span>
 
-    <span class="table_container">
-        <p>⿶テーブル</p>
-        <table class="t7">
-            <tr>
-                <td class="drop-target" id="BottomOutside">
-                    <table class="class_TopInside">
-                        <tr>
-                            <td class="drop-target" id="TopInside"></td>
-                        </tr>
-                    </table>
-                </td>
-            </tr>
-        </table>
-    </span>
+        <span class="kanji-table">
+            <p>⿴テーブル</p>
+            <div class="t5 drop-target" id="Outside">
+                <div class="drop-target" id="Inside"></div>
+            </div>
+        </span>
 
-    <span class="table_container">
-        <p>⿷テーブル</p>
-        <table class="t8">
-            <tr>
-                <td class="drop-target" id="LeftOutside">
-                    <table class="class_RightInside">
-                        <tr>
-                            <td class="drop-target" id="RightInside"></td>
-                        </tr>
-                    </table>
-                </td>
-            </tr>
-        </table>
-    </span>
+        <span class="kanji-table">
+            <p>⿵テーブル</p>
+            <div class="t6 drop-target" id="TopOutside">
+                <div class="drop-target" id="BottomInside"></div>    
+            </div>
+        </span>
 
-    <span class="table_container">
-        <p>⿸テーブル</p>
-        <table class="t9">
-            <tr>
-                <td class="drop-target" id="TopLeftOutside">
-                    <table class="class_BottomRightInside">
-                        <tr>
-                            <td class="drop-target" id="BottomRightInside"></td>
-                        </tr>
-                    </table>
-                </td>
-            </tr>
-        </table>
-    </span>
+        <span class="kanji-table">
+            <p>⿶テーブル</p>
+            <div class="t7 drop-target" id="BottomOutside">
+                <div class="drop-target" id="TopInside"></div>
+            </div>
+        </span>
 
-    <span class="table_container">
-        <p>⿹テーブル</p>
-        <table class="t10">
-            <tr>
-                <td class="drop-target" id="TopRightOutside">
-                    <table class="class_BottomLeftInside">
-                        <tr>
-                            <td class="drop-target" id="BottomLeftInside"></td>
-                        </tr>
-                    </table>
-                </td>
-            </tr>
-        </table>
-    </span>
+        <span class="kanji-table">
+            <p>⿷テーブル</p>
+            <div class="t8 drop-target" id="LeftOutside">
+                <div class="drop-target" id="RightInside"></div>
+            </div>
+        </span>
 
-    <span class="table_container">
-        <p>⿺テーブル</p>
-        <table class="t11">
-            <tr>
-                <td class="drop-target" id="BottomLeftOutside">
-                    <table class="class_TopRightInside">
-                        <tr>
-                            <td class="drop-target" id="TopRightInside"></td>
-                        </tr>
-                    </table>
-                </td>
-            </tr>
-        </table>
-    </span>
+        <span class="kanji-table">
+            <p>⿸テーブル</p>
+            <div class="t9 drop-target" id="TopLeftOutside">
+                <div class="drop-target" id="BottomRightInside"></div>
+            </div>
+        </span>
 
-    <span class="table_container">
-        <p>⿻テーブル</p>
-        <table class="t12">
-            <tr>
-                <td class="drop-target" id="Center"></td>
-            </tr>
-        </table>
-    </span>
+        <span class="kanji-table">
+            <p>⿹テーブル</p>
+            <div class="t10 drop-target" id="TopRightOutside">
+                <div class="drop-target" id="BottomLeftInside"></div>
+            </div>
+        </span>
 
-    <div class="kanjiPartsContainer">
-        <span class="dragged-item" id="a">1</span>
-        <span class="dragged-item" id="b">2</span>
-        <span class="dragged-item" id="c">3</span>
+        <span class="kanji-table">
+            <p>⿺テーブル</p>
+            <div class="t11 drop-target" id="BottomLeftOutside">
+                <div class="drop-target" id="TopRightInside"></div>
+            </div>
+        </span>
+
+        <span class="kanji-table">
+            <p>⿻テーブル</p>
+            <div class="t12 drop-target" id="Center"></div>
+        </span>
+
+        <span class="kanji-table">
+            <p>シングルテーブル</p>
+            <div class="t13 drop-target" id="Single"></div>
+        </span>
+
+        <span class="kanji-table">
+            <p>シングルテーブル</p>
+            <div class="t13 drop-target" id="Single"></div>
+        </span>
     </div>
 
-    <script type="text/javascript">
-        // スマホ用ドラッグ設定。未完成
+    <div class="kanjiPartsContainer">
+        <div class="dragged-item" id="a">11111</div>
+        <div class="dragged-item" id="b">2</div>
+        <div class="dragged-item" id="c">3</div>
+    </div>
 
-        // 漢字パーツのムーブ(移動)開始時の座標を保存するグローバル変数
-        let startX = 0
-        let startY = 0
+    <p id="moji"></p>
+
+    <script type="text/javascript">
+        let kanjiParts = null;  // 選択されている漢字パーツ
+        let parent;  // 漢字パーツの親要素
+
+        const moji = document.getElementById("moji");
+
+        // 漢字パーツを重ねることができるセルにドロップするための関数
+        const centerDrop = (element, kanjiParts) => {
+            kanjiParts.style.position = "absolute"  // 漢字パーツの位置指定を親要素(この場合はdropCell)を基準にした絶対位置指定に変更
+            kanjiParts.style.left = 0 + "px";
+            kanjiParts.style.top = 0 + "px";  // dropCellを基準にして位置指定
+            element.append(kanjiParts);  // 要素の子要素に漢字パーツを追加
+            kanjiParts.className = "dragged-item-to-drop";  // 漢字パーツにドロップ後のCSS適用
+        }
 
         // ドロップ用関数
-        const drop = (kanjiParts, x, y) => {
-            kanjiParts.style.pointerEvents = 'none';  // 最前面にある漢字パーツを取得しないようにする
-            const element = document.elementFromPoint(x, y);  // ドラッグ前の最前面要素取得
-            kanjiParts.style.pointerEvents = 'auto';  // 漢字パーツを取得できる設定に戻す
-            console.log(element);
-            // 漢字パーツがある位置に要素があり、それが漢字パーツをドロップできる要素なら
-            if (element !== null) {
-                if (element.className === "drop-target") {
-                    kanjiParts.className = "dragged-item-to-drop";  // 漢字パーツにドロップ後のCSS適用
-                    const child = element.firstElementChild;  // ドロップ先のセルの最初の子要素を取得
-                    
-                    if (child === null) {  // 要素に子要素がなければ
-                        element.prepend(kanjiParts);  // 要素の最初の子要素に漢字パーツを表示
-                        console.log("ドロップ");
-                    } else if (child.tagName === "TABLE") {  // 要素の子要素がテーブルなら
-                        if (element.id.includes("Bottom")) {  // 要素が下側に表示されているセルなら
-                            element.append(kanjiParts);  // 要素の最後の子要素に漢字パーツを表示
-                            console.log("ドロップ");
-                        } else {  // そうでなければ
-                            element.prepend(kanjiParts);  // 要素の最初の子要素に漢字パーツを表示
-                            console.log("ドロップ");
-                        }
+        const drop = (element, kanjiParts) => {
+            if (element !== null) {  // ドロップ先に要素があれば
+                if (element.classList.contains('drop-target')) {  // 漢字パーツをドロップするテーブルのセルなら
+                    if (element.id === "Center") {
+                        centerDrop(element, kanjiParts);
+                    }
+                    else {
+                        element.append(kanjiParts);  // 要素の子要素に漢字パーツを追加
+                        kanjiParts.className = "dragged-item-to-drop";  // 漢字パーツにドロップ後のCSS適用
+                    }
+                    return;  // 関数から抜ける
+                }
+                else if (element.className === "kanjiPartsContainer") {  // 漢字パーツを並べるコンテナの中なら
+                    kanjiParts.className = "dragged-item";  // 漢字パーツにドロップ前のCSS適用
+                    element.append(kanjiParts);  // 要素の子要素に漢字パーツを追加
+                    return;  // 関数から抜ける
+                }
+                else {  // それ以外の要素なら
+                    // 要素の親要素に漢字パーツをドロップできるセル(正確にはセル内のdiv)があれば取得
+                    const dropCell = element.closest('.drop-target');
+                    // ドロップできるセルが存在し、そのセルが複数のパーツをドロップできるセルなら
+                    if (dropCell !== null && dropCell.id === "Center") {
+                        centerDrop(dropCell, kanjiParts);
+                        return;  // 関数から抜ける
                     }
                 }
-                else if (element.className === "kanjiPartsContainer") {
-                    kanjiParts.className = "dragged-item";  // 漢字パーツにドラッグ中のCSS適用
-                    element.append(kanjiParts);  // 要素の最後の子要素に漢字パーツを表示
-                }
-                else {
-                    return false;
-                }
-                return true;
             }
-            else {
-                return false;
-            }
-        };
+            drop(parent, kanjiParts);  // ドロップ前の親要素にドロップし直す
 
-        // 漢字パーツのタップイベント時に実行される関数
-        const touchStart = (event) => {
-            const kanjiParts = event.target;  // タップされた漢字パーツ
-            event.preventDefault();  // ブラウザのデフォルト動作を抑制
-            kanjiParts.className = "dragged-item";  // 漢字パーツにドラッグ中のCSS適用
-            kanjiParts.style.opacity = 0.5;  // 漢字パーツを半透明にする
-            startX = kanjiParts.getBoundingClientRect().left;  // 漢字パーツのムーブ(移動)前のX座標をグローバル変数にセット
-            startY = kanjiParts.getBoundingClientRect().top;  // 漢字パーツのムーブ(移動)前のY座標をグローバル変数にセット
-        };
-
-        // 漢字パーツのムーブ(移動)イベント時に実行される関数
-        const touchMove = (event) => {
-            const kanjiParts = event.target;  // ムーブ(移動)された漢字パーツ
-            kanjiParts.style.position = "absolute";  // 漢字パーツの位置指定を親要素(この場合はhtmlやbody)を基準にした絶対位置指定に変更
-            event.preventDefault();  // ブラウザのデフォルト動作を抑制
-            // 漢字パーツを移動させる
-            kanjiParts.style.left = (event.changedTouches[0].pageX - kanjiParts.clientWidth / 2) + "px";
-            kanjiParts.style.top = (event.changedTouches[0].pageY - kanjiParts.clientHeight / 2) + "px";
-        };
-
-        // 漢字パーツから指を離した際のイベント時に実行される関数
-        const touchEnd = (event) => {
-            const kanjiParts = event.target;  // 指を離された漢字パーツ
-            event.preventDefault();  // ブラウザのデフォルト動作を抑制
-            event.stopPropagation();  // 親要素へのバブリングの停止
-            kanjiParts.style.position = "static";  // 漢字パーツの位置指定を通常の配置に戻す
-            kanjiParts.style.opacity = 1;  // 漢字パーツを不透明にする
-
-            // 漢字パーツをドロップ
-            if (!drop(kanjiParts, event.changedTouches[0].clientX, event.changedTouches[0].clientY)) {  // ドロップできなかった場合
-                drop(kanjiParts, startX, startY);   // 元の位置にドロップ
-            }
+            console.log(element.id);
         };
         
         // ドラッグ対象イベント
         document.querySelectorAll(".dragged-item").forEach((element) => {
-            // 漢字パーツにタップイベントを設定
-            element.addEventListener("touchstart", touchStart);
-            // 漢字パーツにムーブ(移動)イベントを設定
-            element.addEventListener("touchmove", touchMove);
-            // 漢字パーツから指を離した際のイベントを設定
-            element.addEventListener("touchend", touchEnd);
-        });
+            // 漢字パーツにpointerdownイベントを設定
+            element.addEventListener("pointerdown", (event) => {
+                if (kanjiParts !== null) return;  // 漢字パーツが選択されていれば処理を終了
 
-        
-        // ここからPC用ドラッグ設定。未完成
-
-        // dragged-itemクラスの要素を取得し、一つずつ変数elementに取り出すループ
-        document.querySelectorAll(".dragged-item").forEach((element) => {
-            //console.log(element);
-            element.draggable = true;  // ドラッグの許可
-            // 変数elementに取り出したdragged-itemクラスの要素に、ドラッグ開始時のイベントを設定
-            element.addEventListener("dragstart", (event) => {
-                // dragged-itemクラスの要素をドロップしたときに取り出すデータ(漢字パーツのid)を設定
-                event.dataTransfer.setData("text/plain", event.target.id);
-                element.className = "dragged-item";  // ドラッグ前に書き換え
+                console.log("pointerdownイベント");
+                kanjiParts = event.target;  // pointerdownされた漢字パーツ
+                event.preventDefault();  // ブラウザのデフォルト動作を抑制
+                kanjiParts.className = "dragged-item";  // 漢字パーツにドロップ前のCSS適用
+                kanjiParts.style.opacity = 0.5;  // 漢字パーツを半透明にする
+                parent = kanjiParts.parentElement;  // 漢字パーツの親要素をグローバル変数に保存
+                document.body.append(kanjiParts);  // 漢字パーツの親要素をbodyにする(ドロップ可能エリアのrelativeに影響されないようにする)
+                kanjiParts.style.position = "absolute";  // 漢字パーツの位置指定を親要素(この場合はbody)を基準にした絶対位置指定に変更
+                // 漢字パーツを移動させる
+                kanjiParts.style.left = (event.pageX - kanjiParts.clientWidth / 2) + "px";
+                kanjiParts.style.top = (event.pageY - kanjiParts.clientHeight / 2) + "px";
             });
-        });
 
-        // drop-targetクラスの要素を取得し、一つずつ変数elementに取り出すループ
-        document.querySelectorAll(".drop-target").forEach((element) => {
-            // 変数elementに取り出したdrop-targetクラスの要素に、ドロップアイテムがドロップターゲットに重なっている間発生するイベントを設定
-            element.addEventListener("dragover", (event) => {
+            // 漢字パーツにpointermove(移動)イベントを設定
+            element.addEventListener("pointermove", (event) => {
+                // イベントが発生したのが選択されている漢字パーツでなければ処理を終了
+                if (kanjiParts === null || kanjiParts !== event.target) return;
+
+                console.log("pointermoveイベント");
+                event.preventDefault();  // ブラウザのデフォルト動作を抑制
+                // 漢字パーツを移動させる
+                kanjiParts.style.left = (event.pageX - kanjiParts.clientWidth / 2) + "px";
+                kanjiParts.style.top = (event.pageY - kanjiParts.clientHeight / 2) + "px";
+                kanjiParts.setPointerCapture(event.pointerId);
+            });
+
+            // pointerupイベントを設定
+            element.addEventListener("pointerup", (event) => {
+                // イベントが発生したのが選択されている漢字パーツでなければ処理を終了
+                if (kanjiParts === null || kanjiParts !== event.target) return;
+                
+                console.log("pointerupイベント");
+                event.preventDefault();  // ブラウザのデフォルト動作を抑制
                 event.stopPropagation();  // 親要素へのバブリングの停止
-                event.preventDefault();  // ドロップの許可
+                kanjiParts.style.position = "static";  // 漢字パーツの位置指定を通常の配置に戻す
+                kanjiParts.style.opacity = 1;  // 漢字パーツを不透明にする
+
+                kanjiParts.style.pointerEvents = 'none';  // 最前面にある漢字パーツを取得しないようにする
+                // 指の下にある要素取得
+                const element = document.elementFromPoint(event.clientX, event.clientY);
+                kanjiParts.style.pointerEvents = 'auto';  // 漢字パーツを取得できる設定に戻す
+
+                drop(element, kanjiParts);  // ドロップする
+                kanjiParts = null;  // 漢字パーツの選択を解除
             });
 
-            // 変数elementに取り出したdragged-itemクラスの要素に、ドロップ時のイベントを設定する
-            element.addEventListener("drop", (event) => {
-                event.stopPropagation();  // 親要素へのバブリングの停止
-                // セットしたデータを取得し、セルに表示する
-                const child = element.firstElementChild;  // dragged-itemクラスの要素の最初の子要素を取得
-                const kanjiPartsId = event.dataTransfer.getData("text/plain");  // セットした漢字パーツのidを取得
-                const kanjiParts = document.getElementById(kanjiPartsId);  // idを元に漢字パーツの取得
-
-                if (kanjiParts !== null) {  // 漢字パーツが存在すれば
-                    kanjiParts.className = "dragged-item-to-drop";  // ドラッグ後のCSS適用
-                        
-                    if (child === null) {  // 要素に子要素がなければ
-                        element.prepend(kanjiParts);  // 要素の最初の子要素に文字を表示
-                    } else if (child.tagName === "TABLE") {  // 要素の子要素がテーブルなら
-                        if (element.id.includes("Bottom")) {  // 要素が下側に表示されているセルなら
-                            element.append(kanjiParts);  // 要素の最後の子要素に文字を表示
-                        } else {  // そうでなければ
-                            element.prepend(kanjiParts);  // 要素の最初の子要素に文字を表示
-                        }
-                    }
-                }
+            element.addEventListener("pointercancel", (event) => {
+                moji.textContent += "pointercancelイベント発生";
             });
         });
-        
     </script>
 </body>
 </html>
