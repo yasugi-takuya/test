@@ -7,11 +7,13 @@
     <style>
         table {
             border-collapse: collapse;  /* 全てのテーブルの枠線を重ねて表示する */
+
         }
         div.drop-target {
             border: solid, 1px, #000000;  /* セルのボーダーを設定 */
             background-color: white;
             overflow: hidden;  /* はみ出た部分を非表示にする */
+            width: stretch;
         }
         td {
             border: solid, 1px, #000000;  /* セルのボーダーを設定 */
@@ -297,8 +299,8 @@
 
     <div class="kanjiPartsContainer">
         <div class="dragged-item" id="a">11111</div>
-        <div class="dragged-item" id="b">2</div>
-        <div class="dragged-item" id="c">3</div>
+        <div class="dragged-item" id="b">田</div>
+        <div class="dragged-item" id="c">辶</div>
     </div>
 
     <p id="moji"></p>

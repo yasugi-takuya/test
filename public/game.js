@@ -7,13 +7,13 @@ const next_btn = document.getElementById('next_btn');  // 次の四字熟語を�
 let url;  // 四字熟語が書かれたJSONファイルのurl(相対パス)
 if (diff == "やさしい")
 {
-    url = 'yojijukugo_kantan.json';  // 四字熟語が書かれたJSONファイルのurl(相対パス)
+    url = 'yojijukugo_easy.json';  // 四字熟語が書かれたJSONファイルのurl(相対パス)
 }
 else if (diff == "ふつう") {
-    url = 'yojijukugo_hutuu.json';  // 四字熟語が書かれたJSONファイルのurl(相対パス)
+    url = 'yojijukugo_normal.json';  // 四字熟語が書かれたJSONファイルのurl(相対パス)
 } 
 else if (diff == "むずかしい") {
-    url = 'yojijukugo_muzukasii.json';  // 四字熟語が書かれたJSONファイルのurl(相対パス)
+    url = 'yojijukugo_hard.json';  // 四字熟語が書かれたJSONファイルのurl(相対パス)
 }
 
 let counter = 0;  // 四字熟語のカウンタ
@@ -40,7 +40,7 @@ const yojijukugo_display = (counter) => {
     // 四字熟語の各漢字を表示するループ
     for (let i = 0; i < kanji.length; i++)
     {
-        kanji[i].innerHTML = `${yojijukugo_json[counter].構成漢字[i][0]}<rt>${yojijukugo_json[counter].構成漢字[i][1]}</rt>`;
+        kanji[i].innerHTML = `${yojijukugo_json[counter].構成漢字[i].漢字[0][0]}`;
     }
     // 四字熟語の意味の表示
     yojijukugo_meaning.textContent = yojijukugo_json[counter].意味;
