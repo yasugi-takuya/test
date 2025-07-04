@@ -9,7 +9,13 @@
 <body>
     <h1 class="title">漢字組み合わせパズル</h1>
     <div class="buttons">
-        <div class="gamebutton" onclick="SelectPage('select.html')">スタート</div>
+        <form action="game.php" method="post">
+        <label><input type="radio" name="Diff" value="やさしい" checked>やさしい</label>
+        <label><input type="radio" name="Diff" value="ふつう">ふつう</label>
+        <label><input type="radio" name="Diff" value="むずかしい">むずかしい</label>
+        <br>
+        <input type="submit" value="スタート">
+    </form>
 
         <!-- モーダルを開くボタン -->
         <button class="modal-open js-modal-open">操作説明</button>

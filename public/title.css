@@ -1,23 +1,45 @@
-body{
-    background-color: brown;
-}
-.title{
-    font-size: 50px;
+/* ベース設定 */
+body {
+    font-family: "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 20px;
     text-align: center;
-}
-.buttons{
-    display: flex;
-    font-size: 30px;
-    text-align: center;
-    justify-content: space-around;
-    font-weight: bold;
-}
-.gamebutton{
-    background-color: aqua;
-    width: 200px;
-    padding: 10px;
 }
 
+/* タイトル */
+.title {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+/* ラジオボタン周り */
+form {
+    margin-bottom: 20px;
+}
+
+form label {
+    font-size: 1.2em;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+input[type="submit"] {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 1.1em;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
 
 /* モーダルを開くボタン */
 .modal-open{
