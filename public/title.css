@@ -94,8 +94,8 @@ input[type="submit"]:hover {
   position: relative;
   display: inline-block;
   vertical-align: middle;
-  max-width: 600px;
   width: 90%;
+  height: 90%;
 }
 
 /* モーダルを閉じるボタンの指定 */
@@ -116,10 +116,12 @@ input[type="submit"]:hover {
 
 /* モーダルのコンテンツ部分の指定 */
 .modal-content{
-  background: #fff;
+  background: #bcbcbc;
   text-align: left;
   line-height: 1.8;
   padding: 20px;
+
+  text-align: center;
 }
 
 /* モーダルのコンテンツ部分のテキストの指定 */
