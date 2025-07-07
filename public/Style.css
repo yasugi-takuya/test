@@ -1,14 +1,334 @@
 body{
     text-align: center;
+    padding: 0px;
 }
-table{
-    border: #000000, 1px, solid;
-    margin: auto;
-    border-collapse: collapse;
+.dragged-item {  /* 漢字パーツのドロップ前スタイル */
+    user-select: none; /* 文字の選択を禁止する */
+    border: #000000, 1px, solid;  /* ボーダーを設定 */
+    text-align: center;  /* 文字の水平位置を中央寄せ */
+    margin: 5px;
+    font-size: 50px;
+    width: 70px;
+    height: 70px;
+    background-color: rgba(255, 255, 0, 0.5);  /* 背景色の設定 */
+    overflow: hidden; /* はみ出た部分を非表示にする */
+    touch-action: none;  /* スクロールやズームの禁止 */
 }
-td{
-    border: #000000, 1px, solid;
-    width: 200px;
+.dragged-item-to-drop {  /* 漢字パーツのドロップ後スタイル */
+    user-select: none; /* 文字の選択を禁止する */
+    border: none;  /* セルのボーダーを設定 */
+    text-align: center;  /* 文字の水平位置を中央寄せ */
+    margin: 0px;
+    font-size: 50px;
+    width: 100%;
+    height: 100%;  /* 縦幅、横幅を親要素の100%にする */
+    background-color: rgba(255, 255, 0, 0.5);  /* 背景色の設定 */
+    overflow: hidden; /* はみ出た部分を非表示にする */
+    touch-action: none;  /* スクロールやズームの禁止 */
+}
+.kanji-table_container {
+    display: flex;
+    flex-wrap: wrap;
     height: 200px;
-    font-size: 100px;
+}
+.kanji-table-yomi {  /* 漢字パーツを設置するテーブルを設置するコンテナ */
+    background-color: aqua;
+    margin: 0 auto;
+}
+.kanji-yomi {
+    font-weight: bold;
+}
+#kanjiPartsContainer {  /* 漢字パーツを設置するコンテナ */
+    display: flex;
+    flex-wrap: wrap;
+    border: #000000, 1px, solid;  /* ボーダーを設定 */
+    height: 300px;
+    margin: 10px;
+}
+table {
+    border-collapse: collapse;  /* 全てのテーブルの枠線を重ねて表示する */
+}
+.drop-target {
+    font-size: 30px;
+}
+div.drop-target,
+td div div.drop-target {
+    border: solid, 1px, #000000;  /* セルのボーダーを設定 */
+    background-color: white;
+    overflow: hidden;  /* はみ出た部分を非表示にする */
+}
+td {
+    border: solid, 1px, #000000;  /* セルのボーダーを設定 */
+    padding: 0px;
+}
+td div.drop-target {
+    border: none;
+}
+.t1 td div {
+    width: 50px;
+    height: 100px;
+}
+.t2 td div {
+    width: 100px;
+    height: 50px;
+}
+.t3 td div {
+    width: 33px;
+    height: 100px;
+}
+.t4 td div {
+    width: 100px;
+    height: 33px;
+}
+.Outside {
+    position: relative;
+    height: 100px;
+    width: 100px;
+}
+.Inside {
+    position: absolute;
+    top: 24px;
+    left: 24px;
+    height: 50px;
+    width: 50px;
+}
+.TopOutside {
+    position: relative;
+    height: 100px;
+    width: 100px;
+}
+.BottomInside {
+    position: absolute;
+    top: 24px;
+    left: 24px;
+    height: 75px;
+    width: 50px;
+    border-bottom: none;  /* 下側のボーダーを消す */
+}
+.BottomOutside {
+    position: relative;
+    height: 100px;
+    width: 100px;
+}
+.TopInside {
+    position: absolute;
+    top: 0px;
+    left: 24px;
+    height: 75px;
+    width: 50px;
+    border-top: none;  /* 上側のボーダーを消す */
+}
+.LeftOutside {
+    position: relative;
+    height: 100px;
+    width: 100px;
+}
+.RightInside {
+    position: absolute;
+    top: 24px;
+    left: 24px;
+    height: 50px;
+    width: 75px;
+    border-right: none;  /* 右側のボーダーを消す */
+}
+.TopLeftOutside {
+    position: relative;
+    height: 100px;
+    width: 100px;
+}
+.BottomRightInside {
+    position: absolute;
+    top: 24px;
+    left: 24px;
+    height: 75px;
+    width: 75px;
+    border-right: none;  /* 右側のボーダーを消す */
+    border-bottom: none;  /* 下側のボーダーを消す */
+}
+.TopRightOutside {
+    position: relative;
+    height: 100px;
+    width: 100px;
+}
+.BottomLeftInside {
+    position: absolute;
+    top: 24px;
+    left: 0px;
+    height: 75px;
+    width: 75px;
+    border-left: none;  /* 左側のボーダーを消す */
+    border-bottom: none;  /* 下側のボーダーを消す */
+}
+.BottomLeftOutside {
+    position: relative;
+    height: 100px;
+    width: 100px;
+}
+.TopRightInside {
+    position: absolute;
+    top: 0px;
+    left: 24px;
+    height: 75px;
+    width: 75px;
+    border-right: none;  /* 右側のボーダーを消す */
+    border-top: none;  /* 上側のボーダーを消す */
+}
+.Center {
+    position: relative;  /* 中に入った漢字パーツの絶対位置指定の基準にする */
+    height: 100px;
+    width: 100px;
+}
+.Single {
+    height: 100px;
+    width: 100px;
+}
+.t14 .Top {
+    height: 50px;
+    width: 101px;
+}
+.t14 .Left,
+.t14 .Right {
+    height: 50px;
+    width: 50px;
+}
+.t15 .Left{
+    height: 101px;
+    width: 50px;
+}
+.t15 .Top,
+.t15 .Bottom {
+    height: 50px;
+    width: 50px;
+}
+.t16 .Left,
+.t16 .Right {
+    height: 50px;
+    width: 50px;
+}
+.t16 .Bottom {
+    height: 50px;
+    width: 101px;
+}
+.t17 .Top,
+.t17 .Bottom{
+    height: 50px;
+    width: 50px;
+}
+.t17 .Right {
+    height: 101px;
+    width: 50px;
+}
+.t18 div {
+    height: 25px;
+    width: 100px;
+}
+.t19 div {
+    height: 50px;
+    width: 100px;
+}
+.t20 .TopLeftOutside {
+    position: relative;  /* 中に入った漢字パーツの絶対位置指定の基準にする */
+    height: 100px;
+    width: 100px;
+}
+.t20 .Top {
+    position: absolute;
+    top: 24px;
+    left: 24px;
+    height: 38px;
+    width: 75px;
+    border-right: none;  /* 右側のボーダーを消す */
+}
+.t20 .Bottom {
+    position: absolute;
+    top: 63px;
+    left: 24px;
+    height: 37px;
+    width: 75px;
+    border-right: none;  /* 右側のボーダーを消す */
+    border-top: none;  /* 上側のボーダーを消す */
+}
+.t21 .TopLeftOutside {
+    position: relative;  /* 中に入った漢字パーツの絶対位置指定の基準にする */
+    height: 100px;
+    width: 100px;
+}
+.t21 .Top {
+    position: absolute;
+    top: 0px;
+    left: 24px;
+    height: 38px;
+    width: 75px;
+    border-right: none;  /* 右側のボーダーを消す */
+    border-top: none;
+    border-bottom: none;
+}
+.t21 .Bottom {
+    position: absolute;
+    top: 38px;
+    left: 24px;
+    height: 37px;
+    width: 75px;
+    border-right: none;  /* 右側のボーダーを消す */
+}
+.t22 .Top{
+    height: 50px;
+    width: 100px;
+}
+.t22 .BottomLeftOutside {
+    position: relative;
+    height: 50px;
+    width: 100px;
+}
+.t22 .TopRightInside {
+    position: absolute;
+    top: 0px;
+    left: 24px;
+    height: 25px;
+    width: 75px;
+    border-top: none;
+    border-right: none;  /* 右側のボーダーを消す */
+}
+.t23 .Left {
+    height: 100px;
+    width: 50px;
+}
+.t23 .Center {
+    height: 100px;
+    width: 50px;
+}
+.t24 .Top {
+    height: 50px;
+    width: 100px;
+}
+.t24 .TopOutside {
+    position: relative;
+    height: 50px;
+    width: 100px;
+}
+.t24 .BottomInside {
+    position: absolute;
+    top: 24px;
+    left: 24px;
+    height: 25px;
+    width: 50px;
+    border-bottom: none;
+}
+.t25 .Left {
+    height: 100px;
+    width: 50px;
+}
+.t25 .TopRightOutside {
+    position: relative;
+    height: 100px;
+    width: 50px;
+}
+.t25 .BottomLeftInside {
+    position: absolute;
+    top: 24px;
+    left: 0px;
+    height: 75px;
+    width: 25px;
+    border-bottom: none;
+    border-left: none;
 }

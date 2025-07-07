@@ -16,20 +16,37 @@
     <h1 id="title">読み込み中</h1>
     <!--四字熟語と読み方-->
     <h2><ruby id="yojijukugo"></ruby></h2>
-    <!--四字熟語の各漢字を表示するテーブル-->
-    <table>
-        <tr>
-            <td><ruby class="kanji"></ruby></td>
-            <td><ruby class="kanji"></ruby></td>
-            <td><ruby class="kanji"></ruby></td>
-            <td><ruby class="kanji"></ruby></td>
-        </tr>
-    </table>
+    <!--四字熟語の各漢字を表示するテーブルを表示するコンテナ-->
+    <div class="kanji-table_container">
+        <!--四字熟語の各漢字を表示するテーブルと読み仮名-->
+        <span class="kanji-table-yomi">
+            <p class="kanji-yomi"></p>
+            <div class="kanji-table" data-index="0"></div>
+        </span>
+        <span class="kanji-table-yomi">
+            <p class="kanji-yomi"></p>
+            <div class="kanji-table" data-index="1"></div>
+        </span>
+        <span class="kanji-table-yomi">
+            <p class="kanji-yomi"></p>
+            <div class="kanji-table" data-index="2"></div>
+        </span>
+        <span class="kanji-table-yomi">
+            <p class="kanji-yomi"></p>
+            <div class="kanji-table" data-index="3"></div>
+        </span>
+    </div>
     <!--四字熟語の意味-->
     <p id="yojijukugo_meaning"></p>
 
-    <!--次の四字熟語を表示するボタン-->
-    <button id="next_btn">次の四字熟語</button>
+    <!--回答するボタン-->
+    <button id="answer_btn">回答</button>
+
+    <!--次の四字熟語を表示するボタン(テスト用)-->
+    <br><button id="next_btn">Next</button>
+
+    <!-- 漢字を構成する各パーツを表示するコンテナ -->
+    <div id="kanjiPartsContainer"></div>
 
     <!--javascriptの変数にphpの変数の値を代入-->
     <script type="text/javascript">
