@@ -2270,7 +2270,7 @@
         "構成": [
           {
             "部品": "龴",
-            "位置": "ParallelTop "
+            "位置": "ParallelTop"
           },
           {
             "部品": "田",
@@ -2316,7 +2316,7 @@
         "構成": [
           {
             "部品": "辶",
-            "位置": "BottomLeftOutside "
+            "位置": "BottomLeftOutside"
           },
           {
             "部品": "隹",
