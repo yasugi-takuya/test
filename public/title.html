@@ -25,7 +25,11 @@
                     <div class="modal-close js-modal-close">×</div>
                     <!-- モーダル内部のコンテンツ -->
                     <div class="modal-content">
-                            <img src="images/setumei.png" style="width: 75%; height: 75%;">
+                        <picture>
+                            <source media="(max-width: 480px)" srcset="images/setumei_sumaho.png" style="width: 75%; height: 75%;"> 
+                            <source media="(max-width: 1024px)" srcset="images/setumei_sumaho.png" style="width: 75%; height: 75%;">
+                            <img src="images/setumei_pc.png" style="width: 75%; height: 75%;">
+                        </picture>
                     </div>
                 </div>
             </div>
