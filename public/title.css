@@ -1,18 +1,17 @@
 /* ベース設定 */
 body {
     font-family: "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
-    margin: 0;
-    padding: 20px;
     text-align: center;
-    background-image: url("images/ポチタlove.png");
-    
+    background-image: url("images/kyoushitu.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 /* タイトル */
 .title {
     font-size: 80px;
-    margin-top: 100px;
+    margin-top: 60px;
     margin-bottom: 30px;
-    color: #555;
+    color: rgba(255,255,255,0.85);
         text-shadow: 
         1px 1px 0px black,   /* 右下 */
         -1px 1px 0px black,  /* 左下 */
@@ -30,19 +29,30 @@ form {
 }
 
 form label {
+    color: rgba(255,255,255,0.85);;
     font-size: 40px;
     margin: 0 10px;
     cursor: pointer;
     font-weight: bold;
 }
-
+input[type="radio"] {
+    width: 30px;
+    height: 30px;
+    margin-right: 6px;
+}
+.button-group {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* ボタン間のスペース */
+    margin-top: 20px;
+}
 input[type="submit"] {
     margin-top: 20px;
     padding: 10px 20px;
     font-size: 25px;
     width: 300px;
     height: 60px;
-    background-color: aqua;
+    background-color: #FFCC40;
     color: black;
     font-weight: bold;
     border: none;
@@ -59,13 +69,13 @@ input[type="submit"]:hover {
 .modal-open{
   position: fixed;
   top: 80%;
-  left: 50%;
+  left: 70%;
   font-size: 30px;
   font-weight: bold;
   width: 200px;
   height: 60px;
   color: #000;
-  background: aqua;
+  background: #FFCC40;
   border-radius: 8px;
   border: none;
   cursor: pointer;
@@ -73,7 +83,7 @@ input[type="submit"]:hover {
 }
 
 .modal-open:hover{
-  background-color: aquamarine;
+  background-color: #FFCC4C;
 }
 
 /* モーダルと背景の指定 */
