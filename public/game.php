@@ -39,14 +39,16 @@
     <!--四字熟語の意味-->
     <p id="yojijukugo_meaning"></p>
 
-    <!--回答するボタン-->
-    <button id="answer_btn">回答</button>
-
     <!--次の四字熟語を表示するボタン(テスト用)-->
-    <br><button id="next_btn">Next</button>
+    <br><button id="pass_btn">パス</button>
 
     <!-- 漢字を構成する各パーツを表示するコンテナ -->
     <div id="kanjiPartsContainer"></div>
+
+    <!-- 問題に正解したとき表示される文字 -->
+    <div id="message-bg">
+        <div id="message">〇</div>
+    </div>
 
     <!--javascriptの変数にphpの変数の値を代入-->
     <script type="text/javascript">

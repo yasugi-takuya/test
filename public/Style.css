@@ -1,18 +1,19 @@
-body{
+html, body{
     text-align: center;
     padding: 0px;
 }
 .dragged-item {  /* 漢字パーツのドロップ前スタイル */
     user-select: none; /* 文字の選択を禁止する */
-    border: #000000, 1px, solid;  /* ボーダーを設定 */
+    border: 1px solid #000000;  /* ボーダーを設定 */
     text-align: center;  /* 文字の水平位置を中央寄せ */
     margin: 5px;
-    font-size: 50px;
+    font-size: 70px;
     width: 70px;
     height: 70px;
     background-color: rgba(255, 255, 0, 0.5);  /* 背景色の設定 */
     overflow: hidden; /* はみ出た部分を非表示にする */
     touch-action: none;  /* スクロールやズームの禁止 */
+    line-height: 1;  /* 行の高さをフォントサイズと同じにする */
 }
 .dragged-item-to-drop {  /* 漢字パーツのドロップ後スタイル */
     user-select: none; /* 文字の選択を禁止する */
@@ -26,43 +27,72 @@ body{
     overflow: hidden; /* はみ出た部分を非表示にする */
     touch-action: none;  /* スクロールやズームの禁止 */
 }
-.kanji-table_container {
-    display: flex;
-    flex-wrap: wrap;
+.kanji-table_container {  /* 漢字パーツを設置するテーブルを設置するコンテナを設置するコンテナ */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4列 */
+    gap: 0px;
+    place-items: center; /* 横・縦どちらも中央寄せ */
     height: 200px;
 }
-.kanji-table-yomi {  /* 漢字パーツを設置するテーブルを設置するコンテナ */
+.kanji-table-yomi {  /* 漢字パーツを設置するテーブルと、その漢字の読み仮名を設置するコンテナ */
     background-color: aqua;
-    margin: 0 auto;
 }
-.kanji-yomi {
+.kanji-yomi {  /* 漢字の読み仮名 */
     font-weight: bold;
 }
 #kanjiPartsContainer {  /* 漢字パーツを設置するコンテナ */
     display: flex;
     flex-wrap: wrap;
-    border: #000000, 1px, solid;  /* ボーダーを設定 */
+    border: 1px solid #000000;  /* ボーダーを設定 */
     height: 300px;
     margin: 10px;
+}
+#message-bg {
+    position: absolute;  /* bodyを基準にした絶対位置指定 */
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: none;  /* 初期値は非表示 */
+}
+#message {
+    user-select: none; /* 文字の選択を禁止する */
+    position: fixed;  /* ウィンドウサイズを基準にした絶対位置指定 */
+    top: 50%;
+    left: 50%;  /* 要素の左上をbodyの中央に設定 */
+    transform: translate(-50%, -50%);  /* 要素の左上をbodyの中央から要素の横、縦幅分左上に移動させる */
+    font-size: 300px;  /* フォントサイズの指定 */
+    line-height: 100%;  /* 行の高さをフォントサイズと同じにする */
+    margin: 0;
+    padding: 0;
+    color: green;  /* 文字色を指定 */
+    display: none;  /* 初期値は非表示 */
 }
 table {
     border-collapse: collapse;  /* 全てのテーブルの枠線を重ねて表示する */
 }
-.drop-target {
+.drop-target {  /* 漢字パーツをドロップできる要素 */
     font-size: 30px;
 }
-div.drop-target,
+div.drop-target,  /* 漢字パーツをドロップできるdiv、td下のdiv下の漢字パーツをドロップできるdiv */
 td div div.drop-target {
     border: solid, 1px, #000000;  /* セルのボーダーを設定 */
     background-color: white;
     overflow: hidden;  /* はみ出た部分を非表示にする */
 }
-td {
+td {  /* 全てのセル */
     border: solid, 1px, #000000;  /* セルのボーダーを設定 */
     padding: 0px;
 }
-td div.drop-target {
+td div.drop-target {  /* td下のドロップターゲット */
     border: none;
+}
+.correctKanji {
+    border: solid, 1px, #000000;  /* ボーダーを設定 */
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    font-size: 90px;
+    line-height: 1;  /* 行の高さをフォントサイズと同じにする */
 }
 .t1 td div {
     width: 50px;
