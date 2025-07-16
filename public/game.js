@@ -43,7 +43,7 @@ const kanji_table_list = [
     '<table class="t25"><tr><td><div data-position-id="Left" class="drop-target Left"></div></td><td><div data-position-id="TopRightOutside" class="drop-target TopRightOutside"><div data-position-id="BottomLeftInside" class="drop-target BottomLeftInside"></div></div></td></tr></table>'
 ];
 
-let kanjiPart = null;  // 選択されている漢字パーツ
+let selectedKanjiPart = null;  // 選択されている漢字パーツ
 let parent;  // 漢字パーツの親要素
 let url;  // 四字熟語が書かれたJSONファイルのurl(相対パス)
 let counter = 0;  // 四字熟語のカウンタ
@@ -96,6 +96,8 @@ const centerDrop = (element, kanjiPart) => {
     kanjiPart.style.left = 0 + "px";
     kanjiPart.style.top = 0 + "px";  // ドロップターゲットを基準にして位置指定
     element.append(kanjiPart);  // 要素の子要素に漢字パーツを追加
+    console.log(kanjiPart.parentElement);
+    console.log(kanjiPart.textContent);
     const table = element.closest(".kanji-table");  // 漢字をドロップするテーブルの親となるdiv要素を取得
     check(table);  // 漢字が完成しているか判定
 }
@@ -212,50 +214,55 @@ const yojijukugo_display = (counter) => {
 
             // 漢字パーツにpointerdownイベントを設定
             parts.addEventListener("pointerdown", (event) => {
-                if (kanjiPart !== null) return;  // 漢字パーツがすでに選択されていればイベントを終了
+                console.log(`selectedKanjiPart=${selectedKanjiPart}`);
+                if (selectedKanjiPart !== null) return;  // 漢字パーツがすでに選択されていればイベントを終了
+                console.log("pointerdown");
 
-                kanjiPart = event.target;  // pointerdownされた漢字パーツをグローバル変数に保存
+                selectedKanjiPart = event.target;  // pointerdownされた漢字パーツをグローバル変数に保存
                 event.preventDefault();  // ブラウザのデフォルト動作を抑制
-                kanjiPart.className = "dragged-item";  // 漢字パーツにドロップ前のCSS適用
-                kanjiPart.style.opacity = 0.5;  // 漢字パーツを半透明にする
-                parent = kanjiPart.parentElement;  // 漢字パーツの親要素をグローバル変数に保存
-                document.body.append(kanjiPart);  // 漢字パーツの親要素をbodyにする(ドロップ可能エリアのrelativeに影響されないようにする)
-                kanjiPart.style.position = "absolute";  // 漢字パーツの位置指定を親要素(この場合はbody)を基準にした絶対位置指定に変更
+                selectedKanjiPart.className = "dragged-item";  // 漢字パーツにドロップ前のCSS適用
+                selectedKanjiPart.style.opacity = 0.5;  // 漢字パーツを半透明にする
+                parent = selectedKanjiPart.parentElement;  // 漢字パーツの親要素をグローバル変数に保存
+                document.body.append(selectedKanjiPart);  // 漢字パーツの親要素をbodyにする(ドロップ可能エリアのrelativeに影響されないようにする)
+                selectedKanjiPart.style.position = "absolute";  // 漢字パーツの位置指定を親要素(この場合はbody)を基準にした絶対位置指定に変更
                 // 漢字パーツの中央がpointerdownされた位置に来るように移動させる
-                kanjiPart.style.left = (event.pageX - kanjiPart.clientWidth / 2) + "px";
-                kanjiPart.style.top = (event.pageY - kanjiPart.clientHeight / 2) + "px";
+                selectedKanjiPart.style.left = (event.pageX - selectedKanjiPart.clientWidth / 2) + "px";
+                selectedKanjiPart.style.top = (event.pageY - selectedKanjiPart.clientHeight / 2) + "px";
             });
 
             // 漢字パーツにpointermove(移動)イベントを設定
             parts.addEventListener("pointermove", (event) => {
                 // イベントが発生したのが選択されている漢字パーツでなければイベントを終了
-                if (kanjiPart === null || kanjiPart !== event.target) return;
+                if (selectedKanjiPart === null || selectedKanjiPart !== event.target) return;
+                console.log("pointermove");
+
 
                 event.preventDefault();  // ブラウザのデフォルト動作を抑制
                 // 漢字パーツを移動させる
-                kanjiPart.style.left = (event.pageX - kanjiPart.clientWidth / 2) + "px";
-                kanjiPart.style.top = (event.pageY - kanjiPart.clientHeight / 2) + "px";
-                kanjiPart.setPointerCapture(event.pointerId);  // ポインタが漢字パーツから外れても移動を続けるようにする
+                selectedKanjiPart.style.left = (event.pageX - selectedKanjiPart.clientWidth / 2) + "px";
+                selectedKanjiPart.style.top = (event.pageY - selectedKanjiPart.clientHeight / 2) + "px";
+                selectedKanjiPart.setPointerCapture(event.pointerId);  // ポインタが漢字パーツから外れても移動を続けるようにする
             });
 
             // pointerupイベントを設定
             parts.addEventListener("pointerup", (event) => {
                 // イベントが発生したのが選択されている漢字パーツでなければ処理を終了
-                if (kanjiPart === null || kanjiPart !== event.target) return;
+                if (selectedKanjiPart === null || selectedKanjiPart !== event.target) return;
+                console.log("pointerup");
 
                 event.preventDefault();  // ブラウザのデフォルト動作を抑制
                 event.stopPropagation();  // 親要素へのバブリングの停止
-                kanjiPart.style.position = "static";  // 漢字パーツの位置指定を通常の配置に戻す
-                kanjiPart.style.opacity = 1;  // 漢字パーツを不透明にする
+                selectedKanjiPart.style.position = "static";  // 漢字パーツの位置指定を通常の配置に戻す
+                selectedKanjiPart.style.opacity = 1;  // 漢字パーツを不透明にする
 
                 // 漢字パーツの下にある要素を取得する
-                kanjiPart.style.pointerEvents = 'none';  // 最前面にある漢字パーツを取得しないようにする
+                selectedKanjiPart.style.pointerEvents = 'none';  // 最前面にある漢字パーツを取得しないようにする
                 // 漢字パーツの下にある要素取得
                 const element = document.elementFromPoint(event.clientX, event.clientY);
-                kanjiPart.style.pointerEvents = 'auto';  // 漢字パーツを取得できる設定に戻す
+                selectedKanjiPart.style.pointerEvents = 'auto';  // 漢字パーツを取得できる設定に戻す
 
-                drop(element, kanjiPart);  // ドロップする
-                kanjiPart = null;  // 漢字パーツの選択を解除
+                drop(element, selectedKanjiPart);  // ドロップする
+                selectedKanjiPart = null;  // 漢字パーツの選択を解除
             });
 
             // android端末チェック用
@@ -396,7 +403,6 @@ hint_btn.addEventListener('click', () => {
                 [data-position-id="${positionId}"].dragged-item,
                 [data-position-id="${positionId}"].dragged-item-to-drop,
                 [data-position-id="${positionId}"].dragged-item-to-drop-center`));
-
             // ドロップされた漢字パーツのループ
             for (dropTargetInkanjiPart of dropTargetInkanjiParts) {
                 // 漢字パーツの文字が正解の文字のどれとも一致しなければ
@@ -420,35 +426,47 @@ hint_btn.addEventListener('click', () => {
     }
 
     // ランダムに正解していないドロップターゲットの添え字を1つ取得する
-    const dropTargetsIndex = Math.floor(Math.random() * (incorrectDropTargets.length));
+    const incorrectdropTargetsIndex = Math.floor(Math.random() * (incorrectDropTargets.length));
 
-    if (incorrectDropTargets[dropTargetsIndex].children !== null && incorrectDropTargets[dropTargetsIndex].children > 0) {  // セルにすでに漢字パーツがあれば
+    // ランダムに取得した正解していないドロップターゲット内の漢字パーツ取得
+    const incorrectDropTargetInKanjiParts = incorrectDropTargets[incorrectdropTargetsIndex].querySelectorAll(
+        ".dragged-item-to-drop, .dragged-item-to-drop-center");
+
+    
+    if (incorrectDropTargetInKanjiParts !== null && incorrectDropTargetInKanjiParts.length > 0) {  // セルにすでに漢字パーツがあれば
         // 漢字パーツを取得するループ
-        Array.from(incorrectDropTargets[dropTargetsIndex].children).forEach((kanjiPart) => {
-            if (incorrectkanjiParts.includes(kanjiPart)) {  // 正しい位置にドロップされていないパーツのみ
-                drop(kanjiPartsContainer, kanjiPart);  // 漢字パーツのコンテナに移動
+        incorrectDropTargetInKanjiParts.forEach((incorrectDropTargetInKanjiPart) => {
+            if (incorrectkanjiParts.includes(incorrectDropTargetInKanjiPart)) {  // 正しい位置にドロップされていないパーツのみ
+                drop(kanjiPartsContainer, incorrectDropTargetInKanjiPart);  // 漢字パーツのコンテナに移動
             }
         });
     }
-
+    
     // ランダムに取得した正解していないドロップターゲットの位置情報を変数に保存
-    const positionId = dropTargets[dropTargetsIndex].dataset.positionId;
-    // 正解の漢字パーツを全て取得
-    const CorrectParts = Array.from(document.querySelectorAll(`
+    const positionId = incorrectDropTargets[incorrectdropTargetsIndex].dataset.positionId;
+    // 正しい位置にドロップされていない正解の漢字パーツを全て取得
+    const incorrectCorrectParts = Array.from(document.querySelectorAll(`
         [data-position-id="${positionId}"].dragged-item,
         [data-position-id="${positionId}"].dragged-item-to-drop,
         [data-position-id="${positionId}"].dragged-item-to-drop-center`))
-    .filter(element => element.style.display != 'none');
-
-    const CorrectPartsIndex = Math.floor(Math.random() * (CorrectParts.length));  // ランダムに正解の漢字パーツの添え字を1つ取得する
+    .filter(incorrectCorrectPart => incorrectkanjiParts.some(incorrectkanjiPart => incorrectkanjiPart.textContent === incorrectCorrectPart.textContent));
     
-    drop(dropTargets[dropTargetsIndex], CorrectParts[CorrectPartsIndex]);  // 正解の漢字パーツをドロップ
+    const incorrectCorrectPartIndex = Math.floor(Math.random() * (incorrectCorrectParts.length));  // ランダムに正解の漢字パーツの添え字を1つ取得する
 
+    const incorrectkanjiPartsindex = incorrectkanjiParts.findIndex(kanjiParts => kanjiParts.textContent === incorrectCorrectParts[incorrectCorrectPartIndex].textContent);
+
+    drop(incorrectDropTargets[incorrectdropTargetsIndex], incorrectkanjiParts[incorrectkanjiPartsindex]);  // 正解の漢字パーツをドロップ
+    /*
+    */
+
+    /*
     console.log(incorrectDropTargets);
+    
     for (incorrectkanjiPart of incorrectkanjiParts)
     {
         console.log(incorrectkanjiPart.textContent);
     }
+        */
 
     /*
     // まだ正解していない漢字パーツをドロップできるセルを取得
@@ -509,7 +527,7 @@ else if (diff == "ふつう") {
 else if (diff == "むずかしい") {
     url = 'yojijukugo_hard.json';  // ハードモードの四字熟語が書かれたJSONファイルのurl(相対パス)
 }
-
+//url = "test.json";
 fetch(url)  // 四字熟語データの取得
 .then((response) => {  // データが取得できたら
     return response.json();  // データをJSON形式のオブジェクトに変換
