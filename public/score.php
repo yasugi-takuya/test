@@ -21,11 +21,14 @@
     $diff = $_POST['Diff'];  // 難易度取得
     ?>
     <h1>あなたのスコアは…</h1>
-    <p><?= $question_length ?>点中<?= $score ?>点！</p>
-    <dic class="button_container">
+    <!-- 問題数と得点表示 -->
+    <p><?= $question_length ?>問中<?= $score ?>点！</p>
+    <div class="button_container">
+    <!-- ゲーム画面に難易度を送信し、再挑戦するフォームとボタン -->
         <form method="post" action="game.php">
             <input type="hidden" name="Diff" value="<?= $_POST['Diff'] ?>">
             <input class="transition_Button" type="submit" value="再挑戦">
         </form>
+        <!-- タイトル画面へ遷移するボタン -->
         <a href="title.html"><button class="transition_Button">タイトル画面へ</button></a>
-    </dic>
+    </div>

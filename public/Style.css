@@ -3,7 +3,7 @@ body{
 }
 button {
     width: 100px;
-    height: 30px;
+    height: 60px;
     font-size: 15px;
     border: 1px solid #444444;  /* ボーダーを設定 */
     background-color: #ebe82f;
@@ -12,24 +12,18 @@ button {
     border-radius: 5px;
 }
 Button:hover {
-    width: 100px;
-    height: 30px;
     font-size: 15px;
     border: 1px solid #000000;  /* ボーダーを設定 */
     background-color: #fff22b;
     margin: 0 30px;
 }
 Button:active {
-    width: 100px;
-    height: 30px;
     font-size: 15px;
     border: 1px solid #444444;  /* ボーダーを設定 */
     background-color: #ebe82f;
     margin: 0 30px;
 }
 #hint_button {
-    width: 100px;
-    height: 30px;
     font-size: 15px;
     border: 1px solid #444444;  /* ボーダーを設定 */
     background-color: #ffffff;

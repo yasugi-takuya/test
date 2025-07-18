@@ -43,7 +43,7 @@
     <p id="yojijukugo_meaning"></p>
 
     <!--ヒントを表示するボタン-->
-    <button id="hint_btn">ヒント</button>
+    <button id="hint_btn">ヒント(残り回数:3)</button>
     <!--次の問題を表示するボタン-->
     <button id="pass_btn">パス</button>
     <!--ギブアップするボタン-->
@@ -68,11 +68,15 @@
         <input type="hidden" name="Diff" id="diff_hidden">
     </form>
 
+    <!-- ストップウォッチ -->
+    <div id="time" Style="font-size: 24px; position:absolute; top:0px; right:0px;">00:00:00.000</div>
+
     <!--javascriptの変数にphpの変数の値を代入-->
     <script type="text/javascript">
         const diff = "<?php echo $diff?>";
     </script>
     <!--外部javascriptファイルの読み込み-->
+    <script src="Stopwatch.js"></script>
     <script src="game.js"></script>
 </body>
 </html>
