@@ -34,7 +34,7 @@ function timestart(){
 
     startflag = true;
     startTime = Date.now(); // 時間計測開始
-    displayTime();
+    displayTime();  // 時間を表
 }
 
 // ストップウォッチ停止
