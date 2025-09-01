@@ -54,6 +54,16 @@ let yojijukugo_json;  // 四字熟語のJSONデータ
 let score = 0;  // 問題の正解数
 let hintsRemaining = 3  // ヒントの残り回数
 
+// 配列をシャッフルする関数
+// array シャッフルする配列
+const shuffle = (array)=> {
+    for (let i = array.length - 1; i > 0; i--) {  // 配列を末尾からシャッフルしていく
+        const j = Math.floor(Math.random() * (i + 1));  // 0からシャッフル対象要素の添え字までの乱数を生成し、小数点以下切り捨て
+        [array[i], array[j]] = [array[j], array[i]];  // 生成された乱数番目の要素とシャッフル対象要素を交換
+    }
+    return array;
+}
+
 // ドロップ用関数
 const drop = (element, kanjiPart) => {
     kanjiPart.style.position = "static";  // 漢字パーツの位置指定を通常の配置に戻す
@@ -199,6 +209,10 @@ const nextQuestion = (answerMessage, fontSize, fontColor) =>
 
     // 0.1秒待ってから、次の問題へ
     setTimeout(() => {
+        // 全ての漢字パーツの削除
+        document.querySelectorAll('.dragged-item, .dragged-item-to-drop, .dragged-item-to-drop-center').forEach(element => element.remove());
+        selectedKanjiPart = null;  // 漢字パーツの選択を解除
+        
         message_bg.style.display = "none";  // 問題終了時のメッセージの背景を非表示
         message.style.display = "none";  // 問題終了時のメッセージを非表示
         counter += 1;  // 四字熟語のカウンタをカウントアップ
@@ -227,7 +241,8 @@ const yojijukugo_display = (counter) => {
     //timestart();    // ストップウォッチ開始
     startQuestionTimer();   // 問題時間計測開始
 
-    kanjiPartsContainer.innerHTML = "";  // コンテナ内の漢字パーツの削除
+    //kanjiPartsContainer.innerHTML = "";  // コンテナ内の漢字パーツの削除
+    
     // 四字熟語の表示
     yojijukugo.innerHTML = `${yojijukugo_json[counter].熟語}<rt>${yojijukugo_json[counter].読み方}</rt>`;
     // 四字熟語の各漢字を表示するループ
@@ -248,7 +263,7 @@ const yojijukugo_display = (counter) => {
             // 漢字パーツにpointerdownイベントを設定
             parts.addEventListener("pointerdown", (event) => {
                 if (selectedKanjiPart !== null) return;  // 漢字パーツがすでに選択されていればイベントを終了
-                //console.log("pointerdown");
+                console.log("pointerdown");
 
                 selectedKanjiPart = event.target;  // pointerdownされた漢字パーツをグローバル変数に保存
                 event.preventDefault();  // ブラウザのデフォルト動作を抑制
@@ -331,11 +346,7 @@ const yojijukugo_display = (counter) => {
     }
 
     const kanjiParts = Array.from(kanjiPartsContainer.children);  // コンテナ内の漢字パーツを配列に変換
-    // コンテナ内の漢字パーツをFisher–Yatesシャッフル法でシャッフルする
-    for (let i = kanjiParts.length - 1; i > 0; i--) {  // 漢字パーツを末尾からシャッフルしていく
-        const j = Math.floor(Math.random() * (i + 1));  // 0からシャッフル対象漢字パーツの添え字までの乱数を生成し、小数点以下切り捨て
-        [kanjiParts[i], kanjiParts[j]] = [kanjiParts[j], kanjiParts[i]];  // 生成された乱数番目の漢字パーツとシャッフル対象漢字パーツを交換
-    }
+    shuffle(kanjiParts);  // コンテナ内の漢字パーツをFisher–Yatesシャッフル法でシャッフルする
     // シャッフルした順番に並べ直す
     kanjiParts.forEach(kanjiPart => kanjiPartsContainer.appendChild(kanjiPart));
 
@@ -490,6 +501,9 @@ pass_btn.addEventListener('click', () => {
         gameEnd();  // ゲーム終了
         return;
     }
+    // 全ての漢字パーツの削除
+    document.querySelectorAll('.dragged-item, .dragged-item-to-drop, .dragged-item-to-drop-center').forEach(element => element.remove());
+    selectedKanjiPart = null;  // 漢字パーツの選択を解除
     yojijukugo_display(counter);  // 四字熟語の表示
 });
 
