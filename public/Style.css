@@ -1,33 +1,47 @@
 body{
     text-align: center;
 }
+h1 {
+    padding: 0;
+    margin: 0;
+}
+h2 {
+    padding: 0;
+    margin: 5px 0;
+}
+#time {
+    font-size: 24px;
+    text-align: right;
+    margin: 0;
+    padding: 0;
+    line-height: 1;  /* 行の高さをフォントサイズと同じにする */
+}
+.button_grid {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, auto); /* 3列 */
+    gap: 5px;
+    place-items: center; /* 横・縦どちらも中央寄せ */
+    width: fit-content; /* コンテンツ幅にぴったり */
+}
 button {
+    white-space: pre-line; /* 改行文字（\n）で改行 */
     width: 100px;
     height: 60px;
     font-size: 15px;
     border: 1px solid #444444;  /* ボーダーを設定 */
     background-color: #ebe82f;
-    margin: 0 30px;
     user-select: none; /* 文字の選択を禁止する */
     border-radius: 5px;
+    color: #000000;
 }
 Button:hover {
-    font-size: 15px;
     border: 1px solid #000000;  /* ボーダーを設定 */
     background-color: #fff22b;
-    margin: 0 30px;
 }
 Button:active {
-    font-size: 15px;
     border: 1px solid #444444;  /* ボーダーを設定 */
     background-color: #ebe82f;
-    margin: 0 30px;
-}
-#hint_button {
-    font-size: 15px;
-    border: 1px solid #444444;  /* ボーダーを設定 */
-    background-color: #ffffff;
-    margin: 0 30px;
 }
 [data-id="dragged-item"] {
     user-select: none; /* 文字の選択を禁止する */
@@ -63,21 +77,27 @@ Button:active {
     height: 100%;  /* 縦幅、横幅を親要素の100%にする */
     line-height: inherit;  /* 行の高さを親要素と同じにする */
 }
-.kanji-table_grid {  /* 漢字パーツを設置するテーブルを設置するコンテナを設置するコンテナ */
+.kanji-table-grid {  /* 漢字パーツを設置するテーブルを設置するコンテナを設置するコンテナ */
     display: grid;
     grid-template-columns: repeat(4, 1fr); /* 4列 */
     gap: 0px;
     place-items: center; /* 横・縦どちらも中央寄せ */
-    height: 200px;
+    height: fit-content; /* 立幅を子要素に合わせる */
+}
+.kanji-table-container {
+    height: fit-content; /* 立幅を子要素に合わせる */
 }
 .kanji-yomi {  /* 漢字の読み仮名 */
     line-height: 1;
     font-weight: bold;
+    padding: 0;
+    margin: 3px;
 }
 #yojijukugo_meaning {
     font-size: 20px;
-    line-height: 1;
-    height: 40px;
+    line-height: 1.2;
+    height: 72px;
+    margin: 2 0;
 }
 #kanjiPartsContainer {  /* 漢字パーツを設置するコンテナ */
     display: flex;
@@ -93,9 +113,9 @@ Button:active {
     top: 0;
     left: 0;
     width: 100%;
-    display: none;  /* 初期値は非表示 */
 }
 #message {
+    white-space: pre-line; /* 改行文字（\n）で改行 */
     user-select: none; /* 文字の選択を禁止する */
     position: fixed;  /* ウィンドウサイズを基準にした絶対位置指定 */
     top: 50%;
@@ -106,26 +126,32 @@ Button:active {
     margin: 0;
     padding: 0;
     color: green;  /* 文字色を指定 */
-    display: none;  /* 初期値は非表示 */
+}
+#start_btn {
+    user-select: none; /* 文字の選択を禁止する */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) translateY(80px);
 }
 table {
     border-collapse: collapse;  /* 全てのテーブルの枠線を重ねて表示する */
 }
 div.drop-target,  /* 漢字パーツをドロップできるdiv、td下のdiv下の漢字パーツをドロップできるdiv */
 td div div.drop-target {
-    border: solid, 1px, #000000;  /* セルのボーダーを設定 */
+    border: solid 1px #000000;  /* ボーダーを設定 */
     background-color: white;
     overflow: hidden;  /* はみ出た部分を非表示にする */
 }
 td {  /* 全てのセル */
-    border: solid, 1px, #000000;  /* セルのボーダーを設定 */
+    border: solid 1px #000000;  /* ボーダーを設定 */
     padding: 0px;
 }
 td div.drop-target {  /* td下のドロップターゲット */
     border: none;
 }
 .correctKanji {
-    border: solid, 1px, #000000;  /* ボーダーを設定 */
+    border: solid 1px #000000;  /* ボーダーを設定 */
     width: 100px;
     height: 100px;
     background-color: white;

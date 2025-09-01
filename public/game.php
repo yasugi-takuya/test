@@ -15,12 +15,16 @@
 
     $diff = $_POST['Diff'];  // 難易度の値を変数に保存
     ?>
+
+    <!-- ストップウォッチ -->
+    <div id="time">00:00:00.000</div>
     <!--タイトル-->
     <h1 id="title">読み込み中</h1>
+
     <!--四字熟語と読み方-->
     <h2><ruby id="yojijukugo"></ruby></h2>
     <!--四字熟語の各漢字を表示するテーブルを表示するコンテナ-->
-    <div class="kanji-table_grid">
+    <div class="kanji-table-grid">
         <!--四字熟語の各漢字を表示するテーブルと読み仮名-->
         <span class="kanji-table-container">
             <p class="kanji-yomi"></p>
@@ -42,34 +46,37 @@
     <!--四字熟語の意味-->
     <p id="yojijukugo_meaning"></p>
 
-    <!--ヒントを表示するボタン-->
-    <button id="hint_btn">ヒント(残り回数:3)</button>
-    <!--次の問題を表示するボタン-->
-    <button id="pass_btn">パス</button>
-    <!--ギブアップするボタン-->
-    <button id="give_up_btn">ギブアップ</button>
+    <!--各ボタンを表示するコンテナ-->
+    <div class="button_grid">
+        <!--ヒントを表示するボタン-->
+        <button id="hint_btn">ヒント<br>(残り3回)</button>
+        <!--次の問題を表示するボタン-->
+        <button id="pass_btn">パス</button>
+        <!--ギブアップするボタン-->
+        <button id="give_up_btn">ギブアップ</button>
+    </div>
 
     <!-- 漢字を構成する各パーツを表示するコンテナ -->
     <div id="kanjiPartsContainer"></div>
 
     <!-- 問題に正解したときに表示される背景 -->
     <div id="message-bg">
-        <!-- 問題に正解したときに表示される〇 -->
-        <div id="message">〇</div>
+        <!-- 問題に正解したときに表示されるメッセージ -->
+        <div id="message"></div>
+        <button id="start_btn">スタート！</button>
     </div>
 
     <!-- スコア送信用フォーム -->
     <form method="post" action="score.php" id="score_form">
-        <!-- スコア送信用hidden -->
+        <!-- 正解数送信用hidden -->
         <input type="hidden" name="score" id="score_hidden">
+        <!-- ボーナス得点送信用hidden -->
+        <input type="hidden" name="bonus_points" id="bonus_points_hidden">
         <!-- 問題数送信用hidden -->
         <input type="hidden" name="questions_length" id="questions_length_hidden">
         <!-- 難易度送信用hidden -->
         <input type="hidden" name="Diff" id="diff_hidden">
     </form>
-
-    <!-- ストップウォッチ -->
-    <div id="time" Style="font-size: 24px; position:absolute; top:0px; right:0px;">00:00:00.000</div>
 
     <!--javascriptの変数にphpの変数の値を代入-->
     <script type="text/javascript">
