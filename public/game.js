@@ -541,6 +541,7 @@ fetch(url)  // 四字熟語データの取得
 .then((result) => {  // JSON形式のオブジェクトに変数できたら
     title.textContent = '四字熟語漢字パズル';  // タイトルを表示
     yojijukugo_json = result;  // 四字熟語のJSONデータをグローバル変数に保存
+    shuffle(yojijukugo_json);  // 四字熟語をシャッフル
     message_bg.style.backgroundColor = "#ffffff"; // メッセージの背景の色を白にする
     message_display("各問題の制限時間は30秒です\n\nよーい？", 20, "black");  /* 開始前のメッセージ表示 */
 })

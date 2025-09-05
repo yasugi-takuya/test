@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="score.css">
         <title>スコア表示画面</title>
+        <link rel="icon" href="/images/favicon.ico">
     </head>
     <body>
         <?php
